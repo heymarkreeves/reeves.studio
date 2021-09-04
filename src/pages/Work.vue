@@ -1,13 +1,13 @@
 <template>
   <Layout>
-    <h1>Services</h1>
+    <h1>Work</h1>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Services'
-  }
-}
+    title: "Work",
+  },
+};
 </script>
