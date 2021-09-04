@@ -44,8 +44,10 @@ export default {
 };
 </script>
 
-<style>
-label {
-  display: block;
+<style lang="scss">
+form {
+  label {
+    display: block;
+  }
 }
 </style>
