@@ -4,8 +4,10 @@
       name="contact"
       method="POST"
       data-netlify="true"
+      data-netlify-honeypot="bot-field"
       action="/contact/success"
     >
+      <input type="hidden" name="form-name" value="contact" />
       <div>
         <label for="form-name">Your Name</label>
         <input id="form-name" type="text" name="name" />
