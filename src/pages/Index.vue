@@ -24,18 +24,35 @@
     </div>
     <div class="services wrapper panel-alternating">
       <h2>Services</h2>
-      <ul>
-        <li>Website &amp; content management system (CMS) builds</li>
-        <li>Website maintenance</li>
-        <li>Lead capture &amp; marketing automation</li>
-        <li>SEO &amp; accessibility</li>
-        <li>API integrations</li>
-        <li>
-          Microsites, dashboards, interactive calculators, data visualization
-        </li>
-        <li>UX prototyping</li>
-        <li>Web applications</li>
-      </ul>
+      <div>
+        <ul>
+          <li>Website &amp; content management system (CMS) builds</li>
+          <li>Website maintenance</li>
+          <li>Lead capture &amp; marketing automation</li>
+          <li>
+            <abbr title="Search Engine Optimization">SEO</abbr> &amp;
+            Accessibility (A11y)
+          </li>
+          <li>
+            <abbr title="Application Programming Interface">API</abbr>
+            integrations
+          </li>
+          <li>
+            Microsites, dashboards, interactive calculators, data visualization
+          </li>
+          <li><abbr title="User Experience (Design)">UX</abbr> prototyping</li>
+          <li>Information Architecture (IA)</li>
+          <li>Web applications</li>
+        </ul>
+        <h3>Tools</h3>
+        <ul>
+          <li>Craft CMS</li>
+          <li>Vue.js</li>
+          <li>React</li>
+          <li>Laravel</li>
+          <li>WordPress</li>
+        </ul>
+      </div>
     </div>
     <ContactForm>
       <p>Ready to get started?</p>
@@ -94,9 +111,39 @@ export default {
   }
 }
 .services {
+  /* h2, */
+  h3 {
+    @include remify("font-size", 16px);
+    line-height: 1.5em;
+    text-transform: uppercase;
+    @media all and (min-width: $breakpoint-min) {
+      @include remify("font-size", 18px);
+    }
+  }
+  h3 {
+    margin-top: 1.5em;
+    & + ul {
+      margin-top: 1.5em;
+    }
+  }
   ul {
     list-style: none;
     padding-left: 0;
+    @media all and (min-width: $breakpoint-min) {
+      @include remify("font-size", 18px);
+    }
+    li {
+      line-height: 1.5em;
+    }
+    li:not(:first-of-type) {
+      margin-top: 1.5em;
+    }
+  }
+  & > div {
+    columns: 2;
+    column-width: 300px;
+    column-gap: 60px;
+    break-inside: avoid;
   }
 }
 </style>
