@@ -100,7 +100,7 @@ footer {
 .wrapper {
   @include remify("padding-right", 20px);
   @include remify("padding-left", 20px);
-  @media all and (min-width: $breakpoint-min) {
+  @media all and (min-width: $breakpoint-reader-min) {
     @include remify("padding-right", 40px);
     @include remify("padding-left", 40px);
   }
