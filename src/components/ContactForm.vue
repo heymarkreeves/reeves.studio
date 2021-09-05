@@ -102,9 +102,16 @@ form {
     @include remify("padding", 8px);
     resize: none;
     width: 100%;
-    /* &:focus {
-      outline: 1px solid var(--color-bright-blue);
-    } */
+  }
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea,
+  button {
+    &:focus {
+      outline: none;
+      box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+    }
   }
   input,
   textarea {
