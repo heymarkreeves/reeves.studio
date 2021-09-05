@@ -9,12 +9,18 @@
       I&rsquo;m primarily a front end &amp; CMS developer, adept at balancing
       ambitious designs, accessibility, and performance, held in high regard for
       my attention to detail. On the CMS side, I&rsquo;ve worked extensively
-      with Craft CMS. I&rsquo;ve done some Drupal. I&rsquo;m open to WordPress,
-      too. I&rsquo;ll often deliver a full site build from kickoff through
-      launch. Full-stack UX prototyping&mdash;developing working concepts using
-      real data&mdash;is something of a sweet spot for me. I&rsquo;m a
-      generalist who’s good at jumping in, hitting the ground running, and
-      getting stuff&nbsp;done.
+      with
+      <a
+        target="_blank"
+        href="https://craftcms.com/partners/clearbold"
+        title="I’m a Craft CMS Partner."
+        >Craft CMS</a
+      >. I&rsquo;ve done some Drupal. I&rsquo;m open to WordPress, too.
+      I&rsquo;ll often deliver a full site build from kickoff through launch.
+      Full-stack UX prototyping&mdash;developing working concepts using real
+      data&mdash;is something of a sweet spot for me. I&rsquo;m a generalist
+      who’s good at jumping in, hitting the ground running, and getting
+      stuff&nbsp;done.
     </p>
     <p>
       I&rsquo;m also aware that you&rsquo;re probably juggling multiple apps and
@@ -23,21 +29,23 @@
       or find insight in all that data. I&rsquo;d love to discuss dashboard or
       API projects on that&nbsp;front.
     </p>
-    <h2>Agency Clients Have Included</h2>
-    <ul>
-      <li>The Campbell Soup Company</li>
-      <li>Lexmark</li>
-      <li>Fidelity Investments</li>
-      <li>The NYSE</li>
-      <li>MINI USA</li>
-      <li>Cadillac</li>
-      <li>New Balance</li>
-      <li>L.L. Bean</li>
-      <li>Jay Peak Resort</li>
-      <li>SAP</li>
-      <li>Massachusetts General Hospital</li>
-      <li>Numerous Healthcare &amp; Biosciences clients</li>
-    </ul>
+    <div class="agency-work">
+      <h2>Agency Work Has Included</h2>
+      <ul>
+        <li>The Campbell Soup&nbsp;Company</li>
+        <li>Lexmark</li>
+        <li>Fidelity&nbsp;Investments</li>
+        <li>The&nbsp;NYSE</li>
+        <li>MINI&nbsp;USA</li>
+        <li>Cadillac</li>
+        <li>New&nbsp;Balance</li>
+        <li>L.L.&nbsp;Bean</li>
+        <li>Jay Peak&nbsp;Resort</li>
+        <li>SAP</li>
+        <li>Massachusetts General&nbsp;Hospital</li>
+        <li>Numerous Healthcare, Biosciences&nbsp;clients</li>
+      </ul>
+    </div>
   </Layout>
 </template>
 
@@ -48,3 +56,18 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+.agency-work {
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  li {
+    display: inline;
+    &:not(:last-of-type)::after {
+      content: ", ";
+    }
+  }
+}
+</style>

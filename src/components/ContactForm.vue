@@ -1,5 +1,6 @@
 <template>
   <div class="contact-form">
+    <slot />
     <form
       name="contact"
       method="POST"

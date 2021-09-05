@@ -1,21 +1,29 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
-        <g-link to="/">Reeves Studio</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Services</g-link>
-        <g-link class="nav__link" to="/work/">Work</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-        <g-link class="nav__link" to="/contact/">Contact</g-link>
-        <g-link class="nav__link" to="/agencies/">Agencies</g-link>
-      </nav>
-    </header>
-    <main>
-      <slot />
-    </main>
+  <div class="outer">
+    <div class="inner">
+      <header class="masthead">
+        <div class="wrapper">
+          <strong>
+            <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
+            <g-link to="/">Reeves Studio</g-link>
+          </strong>
+          <nav class="nav">
+            <ul>
+              <li><g-link class="nav__link" to="/">Services</g-link></li>
+              <li><g-link class="nav__link" to="/work/">Work</g-link></li>
+              <li><g-link class="nav__link" to="/about/">About</g-link></li>
+              <li><g-link class="nav__link" to="/contact/">Contact</g-link></li>
+              <li>
+                <g-link class="nav__link" to="/agencies/">Agencies</g-link>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="wrapper">
+        <slot />
+      </main>
+    </div>
     <Footer />
   </div>
 </template>
@@ -38,50 +46,27 @@ query {
 }
 </static-query>
 
-<style>
-body {
-  font-family: publicsans-regular, -apple-system, system-ui, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
+<style lang="scss">
+.masthead {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 80px;
+  }
+  nav {
+    li {
+      display: inline;
+      margin-left: 20px;
+    }
+  }
 }
 
-strong,
-b,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: publicsans-semibold, -apple-system, system-ui, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: normal;
-}
-em,
-i {
-  font-family: publicsans-italic, -apple-system, system-ui, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-style: normal;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
+footer {
+  padding-bottom: 4px;
+  .wrapper {
+    background-color: #eee;
+  }
 }
 </style>

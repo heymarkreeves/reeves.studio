@@ -14,7 +14,9 @@
         editorial teams.
       </p>
     </div>
-    <ContactForm />
+    <ContactForm>
+      <p>Ready to get started?</p>
+    </ContactForm>
   </Layout>
 </template>
 
