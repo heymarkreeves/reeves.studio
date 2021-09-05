@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-form">
+  <div class="contact-form wrapper panel-alternating bg-solid">
     <slot />
     <form
       name="contact"

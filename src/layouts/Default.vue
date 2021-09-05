@@ -20,7 +20,7 @@
           </nav>
         </div>
       </header>
-      <main class="wrapper">
+      <main>
         <slot />
       </main>
     </div>
@@ -47,12 +47,14 @@ query {
 </static-query>
 
 <style lang="scss">
+@import "~/assets/css/_mixins.scss";
+@import "~/assets/css/_vars.scss";
 .masthead {
   .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    @include remify("height", 80px);
     height: 80px;
   }
   nav {
@@ -60,13 +62,9 @@ query {
       display: inline;
       margin-left: 20px;
     }
-  }
-}
-
-footer {
-  padding-bottom: 4px;
-  .wrapper {
-    background-color: #eee;
+    a {
+      text-decoration: none;
+    }
   }
 }
 </style>

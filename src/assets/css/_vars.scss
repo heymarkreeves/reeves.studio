@@ -1,0 +1,16 @@
+@use "sass:math";
+
+$breakpoint-reader-min: math.div(768px, $base-font-size) * 1rem;
+$breakpoint-min: math.div(1024px, $base-font-size) * 1rem;
+
+:root {
+  --color-text-on-tan: rgb(66, 43, 69);
+  --color-dark-blue: rgb(27, 66, 95);
+  --color-dark-blue-50: rgba(27, 66, 95, 0.5);
+  --color-bright-blue: rgb(40, 122, 184);
+  --color-light-blue: rgb(222, 236, 248);
+  --color-orange: rgb(237, 135, 54);
+  --color-orange-text: rgb(214, 93, 0);
+  --color-green: rgb(103, 172, 103);
+  --color-tan: rgb(239, 230, 199);
+}

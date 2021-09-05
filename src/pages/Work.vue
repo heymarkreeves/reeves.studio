@@ -1,6 +1,8 @@
 <template>
   <Layout>
-    <h1>Work</h1>
+    <div class="wrapper panel-alternating bg-solid">
+      <h1>Work</h1>
+    </div>
   </Layout>
 </template>
 

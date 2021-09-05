@@ -1,6 +1,11 @@
 <template>
   <Layout>
-    <h1>Contact</h1>
+    <div class="wrapper panel-alternating bg-solid">
+      <h1>Contact</h1>
+    </div>
+    <div class="wrapper panel-alternating">
+      <p>Content about contacting...</p>
+    </div>
     <ContactForm />
   </Layout>
 </template>
