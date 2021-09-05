@@ -51,14 +51,14 @@
             <li>
               <abbr title="User Experience (Design)">UX</abbr> prototyping
             </li>
-            <li>Information&nbsp;Architecture&nbsp;(IA)</li>
+            <li>Information&nbsp;Architecture</li>
             <li>Web applications</li>
           </ul>
         </div>
         <div>
-          <h3>Tools</h3>
+          <h3>Platforms</h3>
           <ul>
-            <li>Craft CMS</li>
+            <li>Craft&nbsp;CMS</li>
             <li>Vue.js</li>
             <li>React</li>
             <li>Stripe</li>
@@ -108,11 +108,9 @@ export default {
 @import "~/assets/css/vars";
 
 .hero-home {
-  background-color: var(--color-tan);
   background-color: rgb(246, 243, 234);
   .hero-home-highlight,
   .hero-home-image {
-    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,7 +119,6 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 100%;
     & > div {
       @include remify("max-width", 400px);
     }
@@ -129,15 +126,11 @@ export default {
   .hero-home-checklist {
     margin-bottom: 2em;
     p {
-      font-family: publicsans-semibold, -apple-system, system-ui,
-        BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-        sans-serif;
+      @include font("semibold");
       @include remify("font-size", 24px);
     }
   }
   .hero-home-image {
-    align-items: center;
-    justify-content: center;
     @include remify("margin-bottom", 20px);
     img {
       @include remify("max-width", 500px);
@@ -188,32 +181,46 @@ export default {
 .services-list {
   margin-right: auto;
   margin-left: auto;
+  @media all and (max-width: 539px) {
+    & > div:nth-of-type(2) {
+      @include accessibility;
+    }
+  }
   @media all and (max-width: $breakpoint-hand-max) {
     columns: 2;
     column-width: 200px;
-    column-gap: 60px;
+    column-gap: 100px;
     break-inside: avoid-column;
   }
   @media all and (min-width: $breakpoint-hand-min) {
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
-    @include remify("max-width", 800px);
-    & > div {
-      &:nth-of-type(1) {
-        @include remify("padding-right", 40px);
+    & > div:nth-of-type(1) {
+      columns: 2;
+      column-gap: 100px;
+      break-inside: avoid-column;
+      margin-right: auto;
+      margin-left: auto;
+      @include remify("max-width", 800px);
+    }
+    & > div:nth-of-type(2) {
+      @include remify("margin-top", 40px);
+      margin-right: auto;
+      margin-left: auto;
+      @include remify("max-width", 800px);
+      h3,
+      ul,
+      li {
+        display: inline;
+        margin-top: 0;
       }
-      &:nth-of-type(2) {
-        /* background-color: var(--color-gray); */
-        border-left: 3px solid var(--color-gray);
-        /* @include remify("margin-top", -20px); */
-        /* @include remify("padding-top", 20px); */
-        @include remify("padding-right", 50px);
-        /* @include remify("padding-bottom", 20px); */
-        @include remify("padding-left", 40px);
-        h3 {
-          margin-top: 0;
-        }
+      h3::after {
+        content: ":";
+        margin-right: 0.5ch;
+      }
+      li:not(:first-of-type)::before {
+        content: ", ";
+      }
+      li:last-of-type::before {
+        content: ",\0000a0";
       }
     }
   }

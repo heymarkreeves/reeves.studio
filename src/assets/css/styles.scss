@@ -111,6 +111,9 @@ footer {
   @include remify("max-width", 660px);
   text-align: center;
   @include remify("margin-bottom", 40px);
+  h2 {
+    margin-bottom: 0.5em;
+  }
 }
 .panel-alternating {
   @include remify("padding-top", 40px);

@@ -1,5 +1,6 @@
 @use "sass:math";
 
+$breakpoint-small-max: math.div(479px, $base-font-size) * 1rem;
 $breakpoint-hand-max: math.div(599px, $base-font-size) * 1rem;
 $breakpoint-hand-min: math.div(600px, $base-font-size) * 1rem;
 $breakpoint-reader-max: math.div(767px, $base-font-size) * 1rem;

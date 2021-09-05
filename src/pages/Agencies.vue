@@ -64,10 +64,10 @@
     <ContactForm>
       <h2>Let&rsquo;s Team Up.</h2>
       <p>
-        Freelancing just makes sense for me, and you don&rsquo;t need to staff
-        underutilized resources. Let&rsquo;s leverage that. Where my skills and
-        bandwidth overlap your resource or skills gaps&mdash;that&rsquo;s a good
-        fit. I look forward to hearing from&nbsp;you.
+        Freelancing just makes sense for me. Let&rsquo;s leverage that. Where my
+        skills and bandwidth overlap your resource or skills
+        gaps&mdash;that&rsquo;s a good fit. Get in touch to see where we
+        can&nbsp;align.
       </p>
     </ContactForm>
   </Layout>
