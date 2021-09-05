@@ -1,5 +1,5 @@
 <template>
-  <footer class="panel-alternating" role="contentinfo">
+  <footer class="panel panel-alternating" role="contentinfo">
     <div class="wrapper">
       <div>
         <p></p>
@@ -44,7 +44,7 @@
           >.
         </p>
         <p>
-          Caterers, event planners, &amp; culinary&nbsp;brands, visit&nbsp;<a
+          Caterers, event planners, and culinary&nbsp;brands, visit&nbsp;<a
             class="link-wintergreen"
             target="_blank"
             href="https://wintergreendigital.com"

@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="wrapper panel-alternating bg-solid">
+    <div class="wrapper panel panel-alternating bg-solid">
       <h1>Contact Mark</h1>
     </div>
-    <div class="contact-mark wrapper panel-alternating">
+    <div class="contact-mark wrapper panel panel-alternating">
       <div>
         <g-image
           class="mark-desk"

@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="wrapper panel-alternating bg-solid">
+    <div class="wrapper panel panel-alternating bg-solid">
       <h1>Recent Work</h1>
     </div>
-    <div class="panel-alternating">
+    <div class="panel panel-alternating">
       <div class="wrapper">
         <p>
           Include Morin's, Journey North, Sentinel Benefits, Invested Digital
@@ -11,7 +11,7 @@
         </p>
       </div>
     </div>
-    <div class="quote wrapper panel-alternating">
+    <div class="quote wrapper panel panel-alternating">
       <blockquote>
         <p>
           &ldquo;[Mark delivered] as promised, all the while keeping a careful

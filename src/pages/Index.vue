@@ -3,7 +3,7 @@
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <!-- <g-image alt="Example image" src="~/assets/img/favicon.png" width="135" /> -->
 
-    <div class="hero-home panel-alternating bg-solid">
+    <div class="hero-home panel panel-alternating bg-solid">
       <div class="hero-home-image wrapper">
         <g-image src="~/assets/img/tech.png" alt="" width="1000" />
       </div>
@@ -22,39 +22,53 @@
         </div>
       </div>
     </div>
-    <div class="services wrapper panel-alternating">
-      <h2>Services</h2>
-      <div>
-        <ul>
-          <li>Website &amp; content management system (CMS) builds</li>
-          <li>Website maintenance</li>
-          <li>Lead capture &amp; marketing automation</li>
-          <li>
-            <abbr title="Search Engine Optimization">SEO</abbr> &amp;
-            Accessibility (A11y)
-          </li>
-          <li>
-            <abbr title="Application Programming Interface">API</abbr>
-            integrations
-          </li>
-          <li>
-            Microsites, dashboards, interactive calculators, data visualization
-          </li>
-          <li><abbr title="User Experience (Design)">UX</abbr> prototyping</li>
-          <li>Information Architecture (IA)</li>
-          <li>Web applications</li>
-        </ul>
-        <h3>Tools</h3>
-        <ul>
-          <li>Craft CMS</li>
-          <li>Vue.js</li>
-          <li>React</li>
-          <li>Laravel</li>
-          <li>WordPress</li>
-        </ul>
+    <div class="services wrapper panel panel-alternating">
+      <div class="panel-intro">
+        <h2>Services</h2>
+        <p>Big experience, tailor-fit to your budget&nbsp;&amp;&nbsp;needs.</p>
+      </div>
+      <div class="services-list">
+        <div>
+          <ul>
+            <li>Website &amp; content management system (CMS) builds</li>
+            <li>Website maintenance</li>
+            <li>Lead capture &amp; marketing automation</li>
+            <li>
+              <abbr title="Search Engine Optimization">SEO</abbr> &amp;
+              Accessibility (A11y)
+            </li>
+            <li>
+              <abbr title="Application Programming Interface">API</abbr>
+              integrations
+            </li>
+            <li>Ecommerce</li>
+            <li>
+              Microsites, dashboards, interactive calculators, data
+              visualization
+            </li>
+            <li>
+              <abbr title="User Experience (Design)">UX</abbr> prototyping
+            </li>
+            <li>Information Architecture&nbsp;(IA)</li>
+            <li>Web applications</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul>
+            <li>Craft CMS</li>
+            <li>Vue.js</li>
+            <li>React</li>
+            <li>Stripe</li>
+            <li>Postmark</li>
+            <li>Salesforce</li>
+            <li>Laravel</li>
+            <li>WordPress</li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="quote wrapper panel-alternating">
+    <div class="quote wrapper panel panel-alternating">
       <blockquote>
         <p>
           &ldquo;EVERYTHING went so smoothly. Mark orchestrated the scope and
@@ -65,7 +79,12 @@
       <p>&ndash; Elizabeth Howard, Founder, Journey North</p>
     </div>
     <ContactForm>
-      <p>Ready to get started?</p>
+      <h2>Let&rsquo;s&nbsp;Talk.</h2>
+      <p>
+        Whether you have a specific request or don&rsquo;t know where to start,
+        the first step is a conversation. Fill out the form, hit the button, and
+        Mark will be in&nbsp;touch.
+      </p>
     </ContactForm>
   </Layout>
 </template>
@@ -149,11 +168,28 @@ export default {
       margin-top: 1.5em;
     }
   }
-  & > div {
+}
+.services-list {
+  margin-right: auto;
+  margin-left: auto;
+  @media all and (max-width: $breakpoint-reader-max) {
     columns: 2;
-    column-width: 300px;
+    column-width: 200px;
     column-gap: 60px;
-    break-inside: avoid;
+    break-inside: avoid-column;
+  }
+  @media all and (min-width: $breakpoint-reader-min) {
+    display: flex;
+    justify-content: space-between;
+    @include remify("max-width", 800px);
+    & > div {
+      &:nth-of-type(2) {
+        @include remify("padding-right", 40px);
+        h3 {
+          margin-top: 0;
+        }
+      }
+    }
   }
 }
 </style>

@@ -1,6 +1,8 @@
 @use "sass:math";
 
+$breakpoint-reader-max: math.div(767px, $base-font-size) * 1rem;
 $breakpoint-reader-min: math.div(768px, $base-font-size) * 1rem;
+$breakpoint-max: math.div(1023px, $base-font-size) * 1rem;
 $breakpoint-min: math.div(1024px, $base-font-size) * 1rem;
 
 :root {

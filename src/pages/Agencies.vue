@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="wrapper panel-alternating bg-solid">
+    <div class="wrapper panel panel-alternating bg-solid">
       <h1>Agency Partnerships</h1>
     </div>
-    <div class="panel-alternating">
+    <div class="panel panel-alternating">
       <div class="wrapper">
         <p>
           Mark began his career at digital marketing agency Euro RSCG and has
@@ -33,7 +33,7 @@
           to discuss dashboard or API projects on that&nbsp;front.
         </p>
       </div>
-      <div class="agency-work wrapper panel-sub">
+      <div class="agency-work wrapper panel panel-sub">
         <h2>Agency Work</h2>
         <p>
           Mark has worked on projects for the following clients in agency roles
@@ -55,7 +55,7 @@
         </ul>
       </div>
     </div>
-    <div class="quote wrapper panel-alternating">
+    <div class="quote wrapper panel panel-alternating">
       <blockquote>
         <p>&ldquo;Great attention to&nbsp;detail.&rdquo;</p>
       </blockquote>

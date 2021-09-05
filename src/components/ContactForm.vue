@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-form wrapper panel-alternating bg-solid">
+  <div class="contact-form wrapper panel panel-alternating bg-solid">
     <div class="panel-intro">
       <slot />
     </div>
@@ -40,7 +40,7 @@
         ></textarea>
       </div>
       <div>
-        <button class="cta" type="submit">Send</button>
+        <button class="btn" type="submit">Send</button>
       </div>
     </form>
   </div>

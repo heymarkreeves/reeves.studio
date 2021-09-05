@@ -106,6 +106,13 @@ footer {
     @include remify("padding-left", 40px);
   }
 }
+.panel-intro {
+  margin-right: auto;
+  margin-left: auto;
+  @include remify("max-width", 660px);
+  text-align: center;
+  @include remify("margin-bottom", 40px);
+}
 .panel-alternating {
   @include remify("padding-top", 40px);
   @include remify("padding-bottom", 40px);
@@ -153,7 +160,7 @@ button {
   @include font("regular");
   transition: 0.2s all;
 }
-.cta {
+.btn {
   background-color: var(--color-orange-text);
   color: white;
   cursor: pointer;

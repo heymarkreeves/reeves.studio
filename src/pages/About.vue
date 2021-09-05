@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="wrapper panel-alternating bg-solid">
+    <div class="wrapper panel panel-alternating bg-solid">
       <h1>About Mark</h1>
     </div>
-    <div class="about-mark wrapper panel-alternating">
+    <div class="about-mark wrapper panel panel-alternating">
       <div>
         <g-image
           class="mark-seated"
@@ -34,7 +34,7 @@
         </p>
       </div>
     </div>
-    <div class="quote wrapper panel-alternating">
+    <div class="quote wrapper panel panel-alternating">
       <blockquote>
         <p>
           &ldquo;Incredibly efficient and just really great to
