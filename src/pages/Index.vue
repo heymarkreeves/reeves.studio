@@ -5,7 +5,7 @@
 
     <div class="hero-home panel-alternating bg-solid">
       <div class="hero-home-image wrapper">
-        <g-image src="~/assets/img/tech.png" alt="" width="800" />
+        <g-image src="~/assets/img/tech.png" alt="" width="1000" />
       </div>
       <div class="hero-home-highlight wrapper">
         <h1 class="accessibility">Reeves Studio</h1>
@@ -25,7 +25,7 @@
     <div class="services wrapper panel-alternating">
       <h2>Services</h2>
       <ul>
-        <li>Website builds</li>
+        <li>Website &amp; content management system (CMS) builds</li>
         <li>Website maintenance</li>
         <li>Lead capture &amp; marketing automation</li>
         <li>SEO &amp; accessibility</li>
@@ -56,8 +56,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "~/assets/css/_mixins.scss";
-@import "~/assets/css/_vars.scss";
+@import "~/assets/css/mixins";
+@import "~/assets/css/vars";
 
 .hero-home {
   background-color: var(--color-tan);
@@ -82,7 +82,7 @@ export default {
     align-items: center;
     justify-content: center;
     img {
-      @include remify("max-width", 400px);
+      @include remify("max-width", 500px);
     }
   }
   @media all and (min-width: $breakpoint-reader-min) {

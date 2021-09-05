@@ -47,8 +47,8 @@ query {
 </static-query>
 
 <style lang="scss">
-@import "~/assets/css/_mixins.scss";
-@import "~/assets/css/_vars.scss";
+@import "~/assets/css/mixins";
+@import "~/assets/css/vars";
 .masthead {
   .wrapper {
     display: flex;

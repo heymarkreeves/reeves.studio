@@ -15,8 +15,7 @@ body {
   background-color: rgb(246, 243, 234);
   background-color: var(--color-tan);
   color: var(--color-dark-blue);
-  font-family: publicsans-regular, -apple-system, system-ui, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  @include font("regular");
   font-size: $base-font-size;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
@@ -122,4 +121,33 @@ footer {
   background-color: var(--color-tan);
   background-color: rgb(246, 243, 234);
   // color: var(--color-text-on-tan);
+}
+
+button {
+  -webkit-appearance: none;
+  background: none;
+  border: 0;
+  @include font("regular");
+  transition: 0.2s all;
+}
+.cta {
+  background-color: var(--color-orange-text);
+  color: white;
+  cursor: pointer;
+  display: block;
+  @include font("semibold");
+  font-size: inherit;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1em;
+  padding-right: 3ch;
+  padding-bottom: 1em;
+  padding-left: 3ch;
+  text-decoration: none;
+  text-transform: uppercase;
+  &:hover {
+    background-color: var(--color-orange);
+    transform: scale(1.1);
+  }
 }

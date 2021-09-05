@@ -11,13 +11,19 @@
         </p>
       </div>
     </div>
+    <ContactForm />
   </Layout>
 </template>
 
 <script>
+import ContactForm from "~/components/ContactForm";
+
 export default {
   metaInfo: {
     title: "Work",
+  },
+  components: {
+    ContactForm,
   },
 };
 </script>

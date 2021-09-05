@@ -77,6 +77,7 @@ export default {
 .agency-work {
   ul {
     list-style: none;
+    margin-top: 1em;
     padding-left: 0;
   }
   li {

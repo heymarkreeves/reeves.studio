@@ -29,3 +29,17 @@ $base-font-size: 16px;
   #{$property}: $pixels;
   #{$property}: math.div($pixels, $base-font-size) * 1rem;
 }
+
+@mixin font($weightStyle) {
+  @if $weightStyle == "semibold" {
+    font-family: publicsans-semibold, -apple-system, system-ui,
+      BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+      sans-serif;
+    font-weight: normal;
+  } @else {
+    font-family: publicsans-regular, -apple-system, system-ui,
+      BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+      sans-serif;
+    font-weight: normal;
+  }
+}
