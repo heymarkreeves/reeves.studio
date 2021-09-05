@@ -34,6 +34,18 @@
         </p>
       </div>
     </div>
+    <div class="quote wrapper panel-alternating">
+      <blockquote>
+        <p>
+          &ldquo;Incredibly efficient and just really great to
+          work&nbsp;with.&rdquo;
+        </p>
+      </blockquote>
+      <p>
+        &ndash; Lizzy Desibia, VP, Sales &amp; Marketing, Russell Morin
+        Catering&nbsp;Events
+      </p>
+    </div>
     <ContactForm />
   </Layout>
 </template>

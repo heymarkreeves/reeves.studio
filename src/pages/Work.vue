@@ -11,6 +11,16 @@
         </p>
       </div>
     </div>
+    <div class="quote wrapper panel-alternating">
+      <blockquote>
+        <p>
+          &ldquo;[Mark delivered] as promised, all the while keeping a careful
+          eye on budget constraints, staffing considerations, user experience,
+          and future technical&nbsp;dependencies.&rdquo;
+        </p>
+      </blockquote>
+      <p>&ndash; Elizabeth Howard, Founder, Journey North</p>
+    </div>
     <ContactForm />
   </Layout>
 </template>

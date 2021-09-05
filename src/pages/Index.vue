@@ -54,6 +54,16 @@
         </ul>
       </div>
     </div>
+    <div class="quote wrapper panel-alternating">
+      <blockquote>
+        <p>
+          &ldquo;EVERYTHING went so smoothly. Mark orchestrated the scope and
+          timing so well; I never felt overwhelmed by what was a
+          monumental&nbsp;project.&rdquo;
+        </p>
+      </blockquote>
+      <p>&ndash; Elizabeth Howard, Founder, Journey North</p>
+    </div>
     <ContactForm>
       <p>Ready to get started?</p>
     </ContactForm>

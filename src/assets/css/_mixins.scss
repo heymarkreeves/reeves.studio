@@ -36,6 +36,11 @@ $base-font-size: 16px;
       BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
       sans-serif;
     font-weight: normal;
+  } @else if $weightStyle == "semibolditalic" {
+    font-family: publicsans-semibolditalic, -apple-system, system-ui,
+      BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+      sans-serif;
+    font-weight: normal;
   } @else {
     font-family: publicsans-regular, -apple-system, system-ui,
       BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,

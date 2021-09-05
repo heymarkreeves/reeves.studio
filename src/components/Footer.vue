@@ -44,8 +44,7 @@
           >.
         </p>
         <p>
-          Catering &amp; event planning clients: visit
-          <a
+          Caterers, event planners, &amp; culinary&nbsp;brands, visit&nbsp;<a
             class="link-wintergreen"
             target="_blank"
             href="https://wintergreendigital.com"

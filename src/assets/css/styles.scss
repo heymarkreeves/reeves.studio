@@ -114,13 +114,36 @@ footer {
     @include remify("padding-bottom", 80px);
   }
 }
+.panel-alternating:not(.bg-solid) + .panel-alternating:not(.bg-solid) {
+  @include remify("padding-bottom", 80px);
+  @media all and (min-width: $breakpoint-min) {
+    @include remify("padding-bottom", 160px);
+  }
+}
 .panel-sub {
   @include remify("padding-top", 40px);
 }
 .bg-solid {
   background-color: var(--color-tan);
   background-color: rgb(246, 243, 234);
-  // color: var(--color-text-on-tan);
+}
+.quote {
+  color: var(--color-orange-text);
+  @include font("semibold");
+  text-align: center;
+  blockquote {
+    @include remify("max-width", 768px);
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-left: auto;
+    p {
+      @include font("semibolditalic");
+      @include remify("font-size", 20px);
+      @media all and (min-width: $breakpoint-reader-min) {
+        @include remify("font-size", 24px);
+      }
+    }
+  }
 }
 
 button {
@@ -150,4 +173,8 @@ button {
     background-color: var(--color-orange);
     transform: scale(1.1);
   }
+}
+
+a[href="https://craftcms.com/partners/clearbold"] {
+  color: #e5422b;
 }

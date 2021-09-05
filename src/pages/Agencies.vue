@@ -11,9 +11,8 @@
         </p>
         <p>
           In this context, he&rsquo;s primarily a front end or CMS developer,
-          adept at balancing ambitious designs, accessibility, and performance,
-          held in high regard for his attention to detail. On the CMS side,
-          he&rsquo;s worked extensively with
+          adept at balancing ambitious designs, accessibility, and performance.
+          On the CMS side, he&rsquo;s worked extensively with
           <a
             target="_blank"
             href="https://craftcms.com/partners/clearbold"
@@ -52,9 +51,15 @@
           <li>Jay Peak&nbsp;Resort</li>
           <li>SAP</li>
           <li>Massachusetts General&nbsp;Hospital</li>
-          <li>Numerous Healthcare &amp; Biosciences&nbsp;clients</li>
+          <li>Healthcare &amp; Biosciences&nbsp;clients</li>
         </ul>
       </div>
+    </div>
+    <div class="quote wrapper panel-alternating">
+      <blockquote>
+        <p>&ldquo;Great attention to&nbsp;detail.&rdquo;</p>
+      </blockquote>
+      <p>&ndash; Agency Creative&nbsp;Directors</p>
     </div>
     <ContactForm></ContactForm>
   </Layout>
