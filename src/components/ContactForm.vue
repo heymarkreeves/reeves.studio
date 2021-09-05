@@ -93,7 +93,6 @@ form {
   select,
   textarea {
     background-color: white;
-    /* border: 1px solid white; */
     border: none;
     border-bottom: 1px solid #c2c0ba;
     color: var(--color-dark-blue);
@@ -125,6 +124,10 @@ form {
     padding-bottom: 0;
   }
   select {
+    @supports (-webkit-touch-callout: none) {
+      border-bottom: 0;
+      height: calc(2em + 1px);
+    }
     background: white;
     @media all and (min-width: $breakpoint-reader-min) {
       width: calc(100% - 1px);
