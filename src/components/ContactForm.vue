@@ -92,19 +92,33 @@ form {
   input[type="email"],
   select,
   textarea {
-    /* border: 1px solid var(--color-dark-blue-50); */
-    border: 0;
+    background-color: white;
+    /* border: 1px solid white; */
+    border: none;
     border-bottom: 1px solid #c2c0ba;
-    border-radius: 1px;
     color: var(--color-dark-blue);
     @include font("regular");
     @include remify("font-size", 16px);
     @include remify("padding", 8px);
     resize: none;
-    -webkit-appearance: none;
     width: 100%;
+    /* &:focus {
+      outline: 1px solid var(--color-bright-blue);
+    } */
+  }
+  input,
+  textarea {
+    -webkit-appearance: none;
+  }
+  input[type="text"],
+  input[type="email"],
+  select {
+    height: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   select {
+    background: white;
     @media all and (min-width: $breakpoint-reader-min) {
       width: calc(100% - 1px);
     }
