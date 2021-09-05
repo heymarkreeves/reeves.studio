@@ -94,6 +94,7 @@ form {
   textarea {
     /* border: 1px solid var(--color-dark-blue-50); */
     border: 0;
+    border-bottom: 1px solid #c2c0ba;
     border-radius: 1px;
     color: var(--color-dark-blue);
     @include font("regular");
