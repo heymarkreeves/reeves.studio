@@ -12,7 +12,6 @@
   zoom: 1;
 }
 body {
-  background-color: rgb(246, 243, 234);
   background-color: var(--color-tan);
   color: var(--color-dark-blue);
   @include font("regular");
@@ -131,8 +130,7 @@ footer {
   @include remify("padding-top", 40px);
 }
 .bg-solid {
-  background-color: var(--color-tan);
-  background-color: rgb(246, 243, 234);
+  background-color: var(--color-gray);
 }
 .quote {
   color: var(--color-orange-text);

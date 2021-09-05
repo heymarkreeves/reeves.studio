@@ -1,9 +1,12 @@
 @use "sass:math";
 
+$breakpoint-hand-max: math.div(599px, $base-font-size) * 1rem;
+$breakpoint-hand-min: math.div(600px, $base-font-size) * 1rem;
 $breakpoint-reader-max: math.div(767px, $base-font-size) * 1rem;
 $breakpoint-reader-min: math.div(768px, $base-font-size) * 1rem;
 $breakpoint-max: math.div(1023px, $base-font-size) * 1rem;
 $breakpoint-min: math.div(1024px, $base-font-size) * 1rem;
+$breakpoint-desk-min: math.div(1280px, $base-font-size) * 1rem;
 
 :root {
   --color-text-on-tan: rgb(66, 43, 69);
@@ -15,4 +18,5 @@ $breakpoint-min: math.div(1024px, $base-font-size) * 1rem;
   --color-orange-text: rgb(214, 93, 0);
   --color-green: rgb(103, 172, 103);
   --color-tan: rgb(239, 230, 199);
+  --color-gray: rgb(246, 243, 234);
 }

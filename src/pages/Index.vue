@@ -8,17 +8,19 @@
         <g-image src="~/assets/img/tech.png" alt="" width="1000" />
       </div>
       <div class="hero-home-highlight wrapper">
-        <h1 class="accessibility">Reeves Studio</h1>
-        <div class="hero-home-checklist">
-          <p>✓ Accomplish more.</p>
-          <p>✓ Worry less.</p>
-          <p>✓ Build value.</p>
-        </div>
         <div>
-          <p>
-            Web development &amp; UX design for product, sales, marketing, and
-            editorial teams.
-          </p>
+          <h1 class="accessibility">Reeves Studio</h1>
+          <div class="hero-home-checklist">
+            <p>✓ Accomplish more.</p>
+            <p>✓ Worry less.</p>
+            <p>✓ Build value.</p>
+          </div>
+          <div>
+            <p>
+              Web development &amp; UX design for small businesses or product,
+              sales, marketing, and editorial teams.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -49,7 +51,7 @@
             <li>
               <abbr title="User Experience (Design)">UX</abbr> prototyping
             </li>
-            <li>Information Architecture&nbsp;(IA)</li>
+            <li>Information&nbsp;Architecture&nbsp;(IA)</li>
             <li>Web applications</li>
           </ul>
         </div>
@@ -110,10 +112,19 @@ export default {
   background-color: rgb(246, 243, 234);
   .hero-home-highlight,
   .hero-home-image {
-    align-items: flex-start;
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .hero-home-highlight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    & > div {
+      @include remify("max-width", 400px);
+    }
   }
   .hero-home-checklist {
     margin-bottom: 2em;
@@ -127,11 +138,16 @@ export default {
   .hero-home-image {
     align-items: center;
     justify-content: center;
+    @include remify("margin-bottom", 20px);
     img {
       @include remify("max-width", 500px);
     }
+    @media all and (min-width: $breakpoint-reader-min) {
+      margin-bottom: 0;
+    }
   }
   @media all and (min-width: $breakpoint-reader-min) {
+    align-items: center;
     display: flex;
     flex-direction: row-reverse;
     & > div {
@@ -172,19 +188,29 @@ export default {
 .services-list {
   margin-right: auto;
   margin-left: auto;
-  @media all and (max-width: $breakpoint-reader-max) {
+  @media all and (max-width: $breakpoint-hand-max) {
     columns: 2;
     column-width: 200px;
     column-gap: 60px;
     break-inside: avoid-column;
   }
-  @media all and (min-width: $breakpoint-reader-min) {
+  @media all and (min-width: $breakpoint-hand-min) {
+    align-items: flex-start;
     display: flex;
     justify-content: space-between;
     @include remify("max-width", 800px);
     & > div {
-      &:nth-of-type(2) {
+      &:nth-of-type(1) {
         @include remify("padding-right", 40px);
+      }
+      &:nth-of-type(2) {
+        /* background-color: var(--color-gray); */
+        border-left: 3px solid var(--color-gray);
+        /* @include remify("margin-top", -20px); */
+        /* @include remify("padding-top", 20px); */
+        @include remify("padding-right", 50px);
+        /* @include remify("padding-bottom", 20px); */
+        @include remify("padding-left", 40px);
         h3 {
           margin-top: 0;
         }

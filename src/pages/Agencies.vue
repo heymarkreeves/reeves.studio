@@ -34,7 +34,7 @@
         </p>
       </div>
       <div class="agency-work wrapper panel panel-sub">
-        <h2>Agency Work</h2>
+        <div class="panel-intro"><h2>Agency Work</h2></div>
         <p>
           Mark has worked on projects for the following clients in agency roles
           or as an agency partner:
@@ -61,7 +61,15 @@
       </blockquote>
       <p>&ndash; Agency Creative&nbsp;Directors</p>
     </div>
-    <ContactForm></ContactForm>
+    <ContactForm>
+      <h2>Let&rsquo;s Team Up.</h2>
+      <p>
+        Freelancing just makes sense for me, and you don&rsquo;t need to staff
+        underutilized resources. Let&rsquo;s leverage that. Where my skills and
+        bandwidth overlap your resource or skills gaps&mdash;that&rsquo;s a good
+        fit. I look forward to hearing from&nbsp;you.
+      </p>
+    </ContactForm>
   </Layout>
 </template>
 

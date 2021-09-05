@@ -20,7 +20,7 @@
           <strong>multidisciplinary</strong>. In college Mark studied Business,
           Communications, and Computer Science. Today he collaborates with
           designers, marketing professionals, scholars, scientists, and business
-          owners while managing projects and studio&nbsp;operations.
+          owners along with managing projects and studio&nbsp;operations.
         </p>
         <p>
           Whether it&rsquo;s making websites &amp; web apps more accessible
@@ -46,7 +46,14 @@
         Catering&nbsp;Events
       </p>
     </div>
-    <ContactForm />
+    <ContactForm>
+      <h2>Work with Mark.</h2>
+      <p>
+        Reliable, resourceful, responsive&mdash;and ready to make the web work
+        better for you. I&rsquo;d love to hear about what you&rsquo;re working
+        on, and what we can do&nbsp;better.
+      </p>
+    </ContactForm>
   </Layout>
 </template>
 

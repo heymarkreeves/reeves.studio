@@ -21,7 +21,9 @@
       </blockquote>
       <p>&ndash; Elizabeth Howard, Founder, Journey North</p>
     </div>
-    <ContactForm />
+    <ContactForm>
+      <h2>Join the Club.</h2>
+    </ContactForm>
   </Layout>
 </template>
 
