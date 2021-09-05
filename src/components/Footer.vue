@@ -13,7 +13,7 @@
             class="link-craft"
             target="_blank"
             href="https://craftcms.com/partners/clearbold"
-            >Craft CMS Partner</a
+            >Craft&nbsp;CMS&nbsp;Partner</a
           >.
         </p>
         <p>

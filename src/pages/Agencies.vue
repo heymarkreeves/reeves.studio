@@ -1,41 +1,45 @@
 <template>
   <Layout>
     <div class="wrapper panel-alternating bg-solid">
-      <h1>Agencies</h1>
+      <h1>Agency Partnerships</h1>
     </div>
     <div class="panel-alternating">
       <div class="wrapper">
         <p>
-          I began my career at digital marketing agency Euro RSCG and have
+          Mark began his career at digital marketing agency Euro RSCG and has
           worked in or as a partner to agencies ever&nbsp;since.
         </p>
         <p>
-          In this context, I&rsquo;m primarily a front end &amp; microsite or
-          CMS developer, adept at balancing ambitious designs, accessibility,
-          and performance, held in high regard for my attention to detail. On
-          the CMS side, I&rsquo;ve worked extensively with
+          In this context, he&rsquo;s primarily a front end or CMS developer,
+          adept at balancing ambitious designs, accessibility, and performance,
+          held in high regard for his attention to detail. On the CMS side,
+          he&rsquo;s worked extensively with
           <a
             target="_blank"
             href="https://craftcms.com/partners/clearbold"
             title="I’m a Craft CMS Partner."
             >Craft CMS</a
-          >. I&rsquo;ve done some Drupal. I&rsquo;m open to WordPress, too.
-          I&rsquo;ll often deliver a full site build from kickoff through
-          launch. Full-stack UX prototyping&mdash;developing working concepts
-          using real data&mdash;is something of a sweet spot for me. I&rsquo;m a
-          generalist who’s good at jumping in, hitting the ground running, and
-          getting stuff&nbsp;done.
+          >, built or maintained a few Drupal projects, and is open to
+          WordPress, too. Mark will often deliver a full site build from kickoff
+          through launch. Full-stack UX prototyping&mdash;developing working
+          concepts using real data&mdash;is something of a sweet spot for him.
+          He&rsquo;s a generalist who’s good at jumping in, hitting the ground
+          running, and getting things&nbsp;done.
         </p>
         <p>
-          I&rsquo;m also aware that you&rsquo;re probably juggling multiple apps
+          Mark is also aware that you&rsquo;re probably juggling multiple apps
           and services for project management, time tracking, forecasting, and
           sales pipelines, while relying on manual workflows to try to
-          efficiently utilize or find insight in all that data. I&rsquo;d love
+          efficiently utilize or find insight in all that data. He&rsquo;d love
           to discuss dashboard or API projects on that&nbsp;front.
         </p>
       </div>
       <div class="agency-work wrapper panel-sub">
-        <h2>Agency Work Has Included</h2>
+        <h2>Agency Work</h2>
+        <p>
+          Mark has worked on projects for the following clients in agency roles
+          or as an agency partner:
+        </p>
         <ul>
           <li>The Campbell Soup&nbsp;Company</li>
           <li>Lexmark</li>

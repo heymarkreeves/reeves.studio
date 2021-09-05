@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="wrapper panel-alternating bg-solid">
-      <h1>Contact</h1>
+      <h1>Contact Mark</h1>
     </div>
     <div class="wrapper panel-alternating">
       <p>Content about contacting...</p>

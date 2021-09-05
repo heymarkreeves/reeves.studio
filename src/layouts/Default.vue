@@ -9,12 +9,12 @@
           </strong>
           <nav class="nav">
             <ul>
-              <li><g-link class="nav__link" to="/">Services</g-link></li>
-              <li><g-link class="nav__link" to="/work/">Work</g-link></li>
-              <li><g-link class="nav__link" to="/about/">About</g-link></li>
-              <li><g-link class="nav__link" to="/contact/">Contact</g-link></li>
+              <li><g-link to="/">Services</g-link></li>
+              <li><g-link to="/work/">Work</g-link></li>
+              <li><g-link to="/about/">About</g-link></li>
+              <li><g-link to="/contact/">Contact</g-link></li>
               <li>
-                <g-link class="nav__link" to="/agencies/">Agencies</g-link>
+                <g-link to="/agencies/">Agencies</g-link>
               </li>
             </ul>
           </nav>
@@ -64,6 +64,9 @@ query {
     }
     a {
       text-decoration: none;
+      &.active--exact {
+        text-decoration: underline;
+      }
     }
   }
 }
