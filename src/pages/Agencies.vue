@@ -37,7 +37,7 @@
         <div class="panel-intro"><h2>Agency Work</h2></div>
         <p>
           Mark has worked on projects for the following clients in agency roles
-          or as an agency partner:
+          or as an agency&nbsp;partner:
         </p>
         <ul>
           <li>The Campbell Soup&nbsp;Company</li>

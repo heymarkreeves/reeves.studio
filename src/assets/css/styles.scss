@@ -68,7 +68,10 @@ h1,
 h2 {
   @include remify("font-size", 18px);
   @media all and (min-width: $breakpoint-reader-min) {
-    @include remify("font-size", 20px);
+    @include remify("font-size", 24px);
+  }
+  @media all and (min-width: $breakpoint-min) {
+    @include remify("font-size", 28px);
   }
 }
 p,

@@ -129,8 +129,11 @@ export default {
       @include font("semibold");
       @include remify("font-size", 18px);
       margin-top: 0.5em;
-      @media all and (min-width: $breakpoint-min) {
+      @media all and (min-width: $breakpoint-reader-min) {
         @include remify("font-size", 20px);
+      }
+      @media all and (min-width: $breakpoint-min) {
+        @include remify("font-size", 24px);
       }
     }
   }
@@ -147,7 +150,16 @@ export default {
     align-items: center;
     display: flex;
     flex-direction: row-reverse;
-    & > div {
+    & > div:nth-of-type(1) {
+      flex-basis: 55%;
+    }
+    & > div:nth-of-type(2) {
+      flex-basis: 45%;
+    }
+  }
+  @media all and (min-width: $breakpoint-desk-min) {
+    & > div:nth-of-type(1),
+    & > div:nth-of-type(2) {
       flex-basis: 50%;
     }
   }
@@ -164,9 +176,9 @@ export default {
   }
   h3 {
     margin-top: 1.5em;
-    & + ul {
+    /* & + ul {
       margin-top: 1.5em;
-    }
+    } */
   }
   ul {
     list-style: none;
@@ -176,9 +188,9 @@ export default {
     }
     li {
       line-height: 1.5em;
-    }
-    li:not(:first-of-type) {
-      margin-top: 1.5em;
+      break-inside: avoid;
+      margin-top: 0;
+      padding-top: 1.5em;
     }
   }
 }
@@ -194,13 +206,11 @@ export default {
     columns: 2;
     column-width: 200px;
     column-gap: 100px;
-    break-inside: avoid-column;
   }
   @media all and (min-width: $breakpoint-hand-min) {
     & > div:nth-of-type(1) {
       columns: 2;
       column-gap: 100px;
-      break-inside: avoid-column;
       margin-right: auto;
       margin-left: auto;
       @include remify("max-width", 800px);
