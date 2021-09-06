@@ -1,5 +1,13 @@
 <template>
-  <div class="contact-form wrapper panel panel-alternating bg-solid">
+  <div
+    class="
+      contact-form
+      wrapper
+      panel panel-alternating
+      bg-solid
+      padding-extra-bottom
+    "
+  >
     <div class="panel-intro">
       <slot />
     </div>
@@ -57,12 +65,6 @@ export default {
 @import "~/assets/css/vars";
 .panel-intro {
   text-align: center;
-  & + form {
-    @include remify("margin-top", 40px);
-    @media all and (min-width: $breakpoint-reader-min) {
-      @include remify("margin-top", 60px);
-    }
-  }
 }
 form {
   margin-right: auto;

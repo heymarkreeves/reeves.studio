@@ -35,7 +35,15 @@
         </p>
       </div>
     </div>
-    <div class="agency-work wrapper panel-alternating bg-solid">
+    <div
+      class="
+        agency-work
+        wrapper
+        panel-alternating
+        bg-solid
+        padding-extra-bottom
+      "
+    >
       <div class="panel-intro">
         <h2>Agency Work</h2>
       </div>

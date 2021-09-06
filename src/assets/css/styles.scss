@@ -145,6 +145,12 @@ footer {
 .bg-solid {
   background-color: var(--color-gray);
 }
+.padding-extra-bottom {
+  @include remify("padding-bottom", 46px);
+  @media all and (min-width: $breakpoint-min) {
+    @include remify("padding-bottom", 88px);
+  }
+}
 .quote {
   color: var(--color-orange-text);
   @include font("semibold");
