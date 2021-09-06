@@ -118,6 +118,8 @@ form {
     -webkit-appearance: none;
   }
   textarea {
+    @include remify("padding-top", 8px);
+    @include remify("padding-bottom", 8px);
     resize: none;
   }
   input[type="text"],
