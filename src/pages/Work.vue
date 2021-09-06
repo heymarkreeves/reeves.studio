@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="wrapper panel panel-alternating bg-solid">
-      <h1>Recent Work</h1>
+      <h1>Work Highlights</h1>
     </div>
     <div class="panel panel-alternating">
       <div class="wrapper">

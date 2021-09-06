@@ -107,6 +107,13 @@ footer {
   width: 100%;
 }
 
+.cta {
+  color: var(--color-orange-text);
+  display: block;
+  @include font("semibold");
+  text-decoration: none;
+}
+
 .wrapper {
   @include remify("padding-right", 20px);
   @include remify("padding-left", 20px);

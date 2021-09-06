@@ -20,7 +20,7 @@
           <strong>multidisciplinary</strong>. In college Mark studied Business,
           Communications, and Computer Science. Today he collaborates with
           designers, marketing professionals, scholars, scientists, and business
-          owners along with managing projects and studio&nbsp;operations.
+          owners while managing projects and studio&nbsp;operations.
         </p>
         <p>
           Whether it&rsquo;s making websites &amp; web apps more accessible

@@ -20,6 +20,7 @@
               Web development &amp; UX design for small businesses &amp;
               product, sales, marketing, and editorial teams.
             </p>
+            <g-link class="cta" to="/work/">Check out the work &raquo;</g-link>
           </div>
         </div>
       </div>
@@ -122,6 +123,18 @@ export default {
     & > div {
       @include remify("max-width", 400px);
     }
+    .cta {
+      /* Need to DRY this */
+      @include remify("font-size", 18px);
+      margin-top: 0.5em;
+      @media all and (min-width: $breakpoint-reader-min) {
+        @include remify("font-size", 20px);
+      }
+      @media all and (min-width: $breakpoint-min) {
+        @include remify("font-size", 24px);
+      }
+      /* /Need to DRY this */
+    }
   }
   .hero-home-checklist {
     margin-bottom: 2em;
@@ -151,10 +164,10 @@ export default {
     display: flex;
     flex-direction: row-reverse;
     & > div:nth-of-type(1) {
-      flex-basis: 55%;
+      flex-basis: 52%;
     }
     & > div:nth-of-type(2) {
-      flex-basis: 45%;
+      flex-basis: 48%;
     }
   }
   @media all and (min-width: $breakpoint-desk-min) {
