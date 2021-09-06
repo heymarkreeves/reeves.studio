@@ -146,6 +146,7 @@ query {
     top: 0;
     transition: 0.2s all;
     width: 100%;
+    z-index: 9;
     nav {
       left: 0;
       @include remify("padding-right", 20px);
@@ -164,6 +165,8 @@ query {
     }
   }
   .active-nav {
+    height: 100vh;
+    overflow: hidden;
     .menu-toggle {
       & > div:nth-of-type(1) {
         top: 20px;
