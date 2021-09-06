@@ -69,5 +69,10 @@ query {
       }
     }
   }
+  @media all and (max-width: $breakpoint-reader-max) {
+    nav {
+      display: none;
+    }
+  }
 }
 </style>
