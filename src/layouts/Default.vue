@@ -134,18 +134,23 @@ query {
   .menu-toggle {
     display: block;
   }
-  .masthead nav {
+  .outer {
+    @include remify("padding-top", 80px);
+  }
+  .masthead {
     background-color: rgb(255, 253, 247);
-    height: 0;
+    @include remify("height", 80px);
     left: 0;
     overflow: hidden;
-    @include remify("padding-top", 80px);
-    @include remify("padding-right", 20px);
-    @include remify("padding-left", 20px);
     position: fixed;
     top: 0;
     transition: 0.2s all;
     width: 100%;
+    nav {
+      @include remify("left", 20px);
+      position: absolute;
+      @include remify("top", 80px);
+    }
     li {
       margin-top: 0;
     }
@@ -169,7 +174,7 @@ query {
         transform: rotate(-45deg);
       }
     }
-    .masthead nav {
+    .masthead {
       height: 100vh;
     }
   }
