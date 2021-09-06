@@ -128,7 +128,7 @@ form {
   select {
     @supports (-webkit-touch-callout: none) {
       border-bottom: 0;
-      height: calc(2em);
+      height: calc(2em - 1px);
     }
     @media all and (min-width: $breakpoint-reader-min) {
       width: calc(100% - 1px);
