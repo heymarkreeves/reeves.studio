@@ -17,8 +17,8 @@
           </div>
           <div>
             <p>
-              Web development &amp; UX design for small businesses or product,
-              sales, marketing, and editorial teams.
+              Web development &amp; UX design for small businesses &amp;
+              product, sales, marketing, and editorial teams.
             </p>
           </div>
         </div>
