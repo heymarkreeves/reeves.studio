@@ -74,7 +74,7 @@
       </blockquote>
       <p>&ndash; Agency Creative&nbsp;Directors</p>
     </div>
-    <ContactForm>
+    <ContactForm hideBudgetTerms="true">
       <h2>Let&rsquo;s Team Up.</h2>
       <p>
         Freelancing just makes sense for me. Let&rsquo;s leverage that. Where my

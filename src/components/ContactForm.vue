@@ -33,7 +33,7 @@
             <option>Looking for a Quote</option>
             <option>Immediate Need</option>
           </select>
-          <p class="form-explainer">
+          <p class="form-explainer" v-if="!hideBudgetTerms">
             Most new client projects start at&nbsp;$5,000.
           </p>
         </div>
@@ -57,6 +57,7 @@
 <script>
 export default {
   name: "ContactForm",
+  props: ["hideBudgetTerms"],
 };
 </script>
 
