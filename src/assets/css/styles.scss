@@ -64,10 +64,17 @@ sup {
   line-height: 0.75em;
   margin-left: 2px;
 }
+h1,
+h2 {
+  @include remify("font-size", 18px);
+  @media all and (min-width: $breakpoint-reader-min) {
+    @include remify("font-size", 20px);
+  }
+}
 p,
 li {
   line-height: 1.5em;
-  @media all and (min-width: $breakpoint-min) {
+  @media all and (min-width: $breakpoint-reader-min) {
     @include remify("font-size", 18px);
   }
 }

@@ -127,7 +127,11 @@ export default {
     margin-bottom: 2em;
     p {
       @include font("semibold");
-      @include remify("font-size", 24px);
+      @include remify("font-size", 18px);
+      margin-top: 0.5em;
+      @media all and (min-width: $breakpoint-min) {
+        @include remify("font-size", 20px);
+      }
     }
   }
   .hero-home-image {
