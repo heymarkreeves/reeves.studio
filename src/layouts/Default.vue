@@ -147,9 +147,12 @@ query {
     transition: 0.2s all;
     width: 100%;
     nav {
-      @include remify("left", 20px);
+      left: 0;
+      @include remify("padding-right", 20px);
+      @include remify("padding-left", 20px);
       position: absolute;
       @include remify("top", 80px);
+      width: 100%;
     }
     li {
       margin-top: 0;
