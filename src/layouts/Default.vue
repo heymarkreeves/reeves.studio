@@ -146,6 +146,14 @@ query {
     top: 0;
     transition: 0.2s all;
     width: 100%;
+    li {
+      margin-top: 0;
+    }
+    a {
+      align-items: center;
+      display: flex;
+      height: 44px;
+    }
   }
   .active-nav {
     .menu-toggle {
