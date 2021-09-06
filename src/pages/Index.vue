@@ -164,28 +164,25 @@ export default {
     }
   }
 }
-.services {
-  /* h2, */
-  h3 {
-    @include remify("font-size", 16px);
-    line-height: 1.5em;
-    text-transform: uppercase;
-    @media all and (min-width: $breakpoint-min) {
-      @include remify("font-size", 18px);
-    }
+.services-list {
+  @include remify("font-size", 16px);
+  @media all and (min-width: $breakpoint-min) {
+    @include remify("font-size", 18px);
   }
+  margin-top: -1.5em;
+  margin-right: auto;
+  margin-left: auto;
   h3 {
+    font-size: inherit;
+    line-height: 1.5em;
     margin-top: 1.5em;
-    /* & + ul {
-      margin-top: 1.5em;
-    } */
+
+    text-transform: uppercase;
   }
   ul {
+    font-size: inherit;
     list-style: none;
     padding-left: 0;
-    @media all and (min-width: $breakpoint-min) {
-      @include remify("font-size", 18px);
-    }
     li {
       line-height: 1.5em;
       break-inside: avoid;
@@ -193,10 +190,6 @@ export default {
       padding-top: 1.5em;
     }
   }
-}
-.services-list {
-  margin-right: auto;
-  margin-left: auto;
   @media all and (max-width: 539px) {
     & > div:nth-of-type(2) {
       @include accessibility;
@@ -208,18 +201,17 @@ export default {
     @include remify("column-width", 200px);
   }
   @media all and (min-width: $breakpoint-hand-min) {
-    & > div:nth-of-type(1) {
-      columns: 2;
-      @include remify("column-gap", 100px);
+    & > div {
       margin-right: auto;
       margin-left: auto;
       @include remify("max-width", 800px);
     }
+    & > div:nth-of-type(1) {
+      columns: 2;
+      @include remify("column-gap", 100px);
+    }
     & > div:nth-of-type(2) {
       @include remify("margin-top", 40px);
-      margin-right: auto;
-      margin-left: auto;
-      @include remify("max-width", 800px);
       h3,
       ul,
       li {
