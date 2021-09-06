@@ -134,9 +134,9 @@ footer {
   }
 }
 .panel-alternating:not(.bg-solid) + .panel-alternating:not(.bg-solid) {
-  @include remify("padding-bottom", 80px);
+  @include remify("padding-bottom", 84px);
   @media all and (min-width: $breakpoint-min) {
-    @include remify("padding-bottom", 160px);
+    @include remify("padding-bottom", 168px);
   }
 }
 .panel-sub {
@@ -154,6 +154,10 @@ footer {
 .quote {
   color: var(--color-orange-text);
   @include font("semibold");
+  @include remify("padding-top", 36px);
+  @media all and (min-width: $breakpoint-min) {
+    @include remify("padding-top", 74px);
+  }
   text-align: center;
   blockquote {
     @include remify("max-width", 768px);
