@@ -41,7 +41,8 @@
             target="_blank"
             href="https://craftcms.com/partners/clearbold"
             >Craft&nbsp;CMS&nbsp;Partner</a
-          >.
+          >.<br />
+          <a href="mailto:studio@heyreeves.com">studio@heyreeves.com</a>
         </p>
         <p>
           Caterers, event planners, and culinary&nbsp;brands, visit&nbsp;<a

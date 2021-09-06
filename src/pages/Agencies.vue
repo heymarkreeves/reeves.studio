@@ -4,7 +4,7 @@
       <h1>Agency Partnerships</h1>
     </div>
     <div class="panel panel-alternating">
-      <div class="wrapper">
+      <div class="wrapper content-no-image">
         <p>
           Mark began his career at digital marketing agency Euro RSCG and has
           worked in or as a partner to agencies ever&nbsp;since.
@@ -19,7 +19,8 @@
             title="I’m a Craft CMS Partner."
             >Craft CMS</a
           >, built or maintained a few Drupal projects, and is open to
-          WordPress, too. Mark will often deliver a full site build from kickoff
+          WordPress, too. On the front end, Mark&rsquo;s worked with Vue.js
+          &amp; React. Mark will often deliver a full site build from kickoff
           through launch. Full-stack UX prototyping&mdash;developing working
           concepts using real data&mdash;is something of a sweet spot for him.
           He&rsquo;s a generalist who’s good at jumping in, hitting the ground
@@ -33,11 +34,15 @@
           to discuss dashboard or API projects on that&nbsp;front.
         </p>
       </div>
-      <div class="agency-work wrapper panel panel-sub">
-        <div class="panel-intro"><h2>Agency Work</h2></div>
+    </div>
+    <div class="agency-work wrapper panel-alternating bg-solid">
+      <div class="panel-intro">
+        <h2>Agency Work</h2>
+      </div>
+      <div>
         <p>
-          Mark has worked on projects for the following clients in agency roles
-          or as an agency&nbsp;partner:
+          In agency roles or as an agency&nbsp;partner, Mark has supported
+          efforts&nbsp;for:
         </p>
         <ul>
           <li>The Campbell Soup&nbsp;Company</li>
@@ -87,10 +92,18 @@ export default {
 </script>
 
 <style lang="scss">
+@import "~/assets/css/mixins";
+@import "~/assets/css/vars";
+
 .agency-work {
+  div:not(.panel-intro) {
+    text-align: center;
+  }
   ul {
     list-style: none;
-    margin-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    @include remify("max-width", 800px);
     padding-left: 0;
   }
   li {
@@ -98,6 +111,12 @@ export default {
     &:not(:last-of-type)::after {
       content: ", ";
     }
+  }
+}
+.content-no-image {
+  @media all and (min-width: $breakpoint-min) {
+    columns: 2;
+    @include remify("column-gap", 60px);
   }
 }
 </style>

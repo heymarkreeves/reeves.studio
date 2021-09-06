@@ -204,13 +204,13 @@ export default {
   }
   @media all and (max-width: $breakpoint-hand-max) {
     columns: 2;
-    column-width: 200px;
-    column-gap: 100px;
+    @include remify("column-gap", 100px);
+    @include remify("column-width", 200px);
   }
   @media all and (min-width: $breakpoint-hand-min) {
     & > div:nth-of-type(1) {
       columns: 2;
-      column-gap: 100px;
+      @include remify("column-gap", 100px);
       margin-right: auto;
       margin-left: auto;
       @include remify("max-width", 800px);
