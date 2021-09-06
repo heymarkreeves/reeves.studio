@@ -91,20 +91,6 @@ form {
   input[type="text"],
   input[type="email"],
   select,
-  textarea {
-    background-color: white;
-    border: none;
-    border-bottom: 1px solid #c2c0ba;
-    color: var(--color-dark-blue);
-    @include font("regular");
-    @include remify("font-size", 16px);
-    @include remify("padding", 8px);
-    resize: none;
-    width: 100%;
-  }
-  input[type="text"],
-  input[type="email"],
-  select,
   textarea,
   button {
     &:focus {
@@ -112,23 +98,38 @@ form {
       box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
     }
   }
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #c2c0ba;
+    border-radius: 0;
+    color: var(--color-dark-blue);
+    @include font("regular");
+    @include remify("font-size", 16px);
+    @include remify("padding-right", 8px);
+    @include remify("padding-left", 8px);
+    width: 100%;
+  }
   input,
   textarea {
     -webkit-appearance: none;
+  }
+  textarea {
+    resize: none;
   }
   input[type="text"],
   input[type="email"],
   select {
     height: 2em;
-    padding-top: 0;
-    padding-bottom: 0;
   }
   select {
     @supports (-webkit-touch-callout: none) {
       border-bottom: 0;
-      height: calc(2em + 1px);
+      height: calc(2em);
     }
-    background: white;
     @media all and (min-width: $breakpoint-reader-min) {
       width: calc(100% - 1px);
     }
