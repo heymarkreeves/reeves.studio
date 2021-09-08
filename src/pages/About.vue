@@ -15,8 +15,7 @@
       </div>
       <div>
         <p>
-          As a front end web developer rooted in back end engineering, if you
-          were to describe Mark with one word it would be
+          If you were to describe Mark in one word it would be
           <strong>multidisciplinary</strong>. In college Mark studied Business,
           Communications, and Computer Science. Today he collaborates with
           designers, marketing professionals, scholars, scientists, and business
