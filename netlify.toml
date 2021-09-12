@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "http://heyreeves.com/*"
+  to = "https://reeves.studio"
+  force = true
+
+[[redirects]]
+  from = "https://www.heyreeves.com/*"
+  to = "https://reeves.studio"
+  force = true
