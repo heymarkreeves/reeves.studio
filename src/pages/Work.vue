@@ -263,6 +263,10 @@ export default {
   .text {
     @include remify("padding-top", 40px);
     @include remify("padding-bottom", 40px);
+    @media all and (min-width: $breakpoint-desk-min) {
+      @include remify("padding-top", 80px);
+      @include remify("padding-bottom", 80px);
+    }
   }
   @media all and (min-width: $breakpoint-min) {
     align-items: stretch;
