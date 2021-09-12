@@ -68,6 +68,7 @@
             <li>Salesforce</li>
             <li>Laravel</li>
             <li>WordPress</li>
+            <li>Shopify</li>
           </ul>
         </div>
       </div>
@@ -259,8 +260,9 @@ export default {
     }
     & > div:nth-of-type(2) {
       @include remify("margin-top", 40px);
-      h3,
-      ul,
+      text-align: center;
+      /* h3, */
+      /* ul, */
       li {
         display: inline;
         margin-top: 0;
