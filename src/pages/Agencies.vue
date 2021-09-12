@@ -17,8 +17,7 @@
             target="_blank"
             href="https://craftcms.com/partners/clearbold"
             title="I’m a Craft CMS Partner."
-            >Craft CMS</a
-          >, built or maintained a few Drupal projects, and is open to
+          >Craft CMS</a>, built or maintained a few Drupal projects, and is open to
           WordPress, too. On the front end, Mark&rsquo;s worked with Vue.js
           &amp; React. Mark will often deliver a full site build from kickoff
           through launch. Full-stack UX prototyping&mdash;developing working
@@ -35,15 +34,7 @@
         </p>
       </div>
     </div>
-    <div
-      class="
-        agency-work
-        wrapper
-        panel-alternating
-        bg-solid
-        padding-extra-bottom
-      "
-    >
+    <div class="agency-work wrapper panel-alternating bg-solid padding-extra-bottom">
       <div class="panel-intro">
         <h2>Agency Work</h2>
       </div>
@@ -75,7 +66,7 @@
       <p>&ndash; Agency Creative&nbsp;Directors</p>
     </div>
     <ContactForm hideBudgetTerms="true">
-      <h2>Let&rsquo;s Team Up.</h2>
+      <h2>Let&rsquo;s team up.</h2>
       <p>
         Freelancing just makes sense for me. Let&rsquo;s leverage that. Where my
         skills and bandwidth overlap your resource or skills

@@ -5,16 +5,18 @@
     </div>
     <div class="contact-mark wrapper panel panel-alternating">
       <div>
-        <g-image
-          class="mark-desk"
-          src="~/assets/img/desk.png"
-          alt=""
-          width="800"
-        />
+        <g-image class="mark-desk" src="~/assets/img/desk.png" alt width="800" />
       </div>
-      <div><p>Content about contacting...</p></div>
+      <div>
+        <p>
+          The best way to reach Mark is by email&mdash;a unified inbox for a universal medium.
+          Please provide as much detail as possible. He&rsquo;ll be in touch with some times to&nbsp;connect.
+        </p>
+      </div>
     </div>
-    <ContactForm />
+    <ContactForm>
+      <h2>Get in touch.</h2>
+    </ContactForm>
   </Layout>
 </template>
 

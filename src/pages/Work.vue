@@ -185,7 +185,7 @@
       <p>&ndash; Elizabeth Howard, Founder, Journey North</p>
     </div>
     <ContactForm>
-      <h2>Join the Club.</h2>
+      <h2>Join the club.</h2>
       <p>
         My clients tend to worry less about their web operations once
         we&rsquo;ve started working together. I get things done, plan ahead, and

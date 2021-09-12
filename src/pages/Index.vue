@@ -5,7 +5,7 @@
 
     <div class="hero-home panel panel-alternating bg-solid">
       <div class="hero-home-image wrapper">
-        <g-image src="~/assets/img/tech.png" alt="" width="1000" />
+        <g-image src="~/assets/img/tech.png" alt width="1000" />
       </div>
       <div class="hero-home-highlight wrapper">
         <div>
@@ -82,7 +82,7 @@
       <p>&ndash; Elizabeth Howard, Founder, Journey North</p>
     </div>
     <ContactForm>
-      <h2>Let&rsquo;s&nbsp;Talk.</h2>
+      <h2>Let&rsquo;s&nbsp;talk.</h2>
       <p>
         Whether you have a specific request or don&rsquo;t know where to start,
         the first step is a conversation. Fill out the form, hit the button, and
