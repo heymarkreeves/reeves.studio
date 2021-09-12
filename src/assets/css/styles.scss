@@ -195,7 +195,7 @@ button {
   display: block;
   @include font("semibold");
   font-size: inherit;
-  margin-top: 2em;
+  @include remify("margin-top", 40px);
   margin-right: auto;
   margin-left: auto;
   padding-top: 1em;
