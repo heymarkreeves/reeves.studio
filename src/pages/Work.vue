@@ -249,6 +249,9 @@ export default {
 <style lang="scss">
 @import "~/assets/css/mixins";
 @import "~/assets/css/vars";
+h2 {
+  margin-bottom: 0.5em;
+}
 .panel-work {
   .image {
     align-items: center;
