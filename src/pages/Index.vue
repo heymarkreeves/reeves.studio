@@ -54,6 +54,7 @@
             </li>
             <li>Information&nbsp;Architecture</li>
             <li>Web applications</li>
+            <li>Extending Craft CMS</li>
           </ul>
         </div>
         <div>

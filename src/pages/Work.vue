@@ -21,10 +21,7 @@
             <a target="_blank" href="https://morins.com">Morin&rsquo;s</a> for
             over a decade, including two site redesigns&mdash;first on
             ExpressionEngine and then Craft CMS&mdash;and the recent launch of
-            <a
-              target="_blank"
-              href="https://orderfresheats.com"
-            >Fresh Eats</a>,
+            <a target="_blank" href="https://orderfresheats.com">Fresh Eats</a>,
             a Craft Commerce site focused on corporate &amp; casual catering.
             Along the way he&rsquo;s also supported CRM explorations, marketing
             automation, lead capture, and API&nbsp;integrations.
@@ -63,16 +60,25 @@
     </div>
     <div class="panel panel-work work-idg">
       <div class="image">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314 54.3" class="c-page-header__logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 314 54.3"
+          class="c-page-header__logo"
+        >
           <title>logo</title>
           <path
             d="M51.3,52.2H40.9V1.8H51.3Z"
             class="c-page-header__logo-bar c-page-header__logo-bar--alt"
           />
-          <path d="M32.2,52.5H21.7V15.4H32.2Z" class="c-page-header__logo-bar" />
+          <path
+            d="M32.2,52.5H21.7V15.4H32.2Z"
+            class="c-page-header__logo-bar"
+          />
           <path d="M13,52.5H2.5V27.9H13Z" class="c-page-header__logo-bar" />
           <g class="c-page-header__logo-text">
-            <path d="M73.4,38.7a.8.8,0,0,1-.8-.8h0V22a.8.8,0,0,1,1.6,0V38A.8.8,0,0,1,73.4,38.7Z" />
+            <path
+              d="M73.4,38.7a.8.8,0,0,1-.8-.8h0V22a.8.8,0,0,1,1.6,0V38A.8.8,0,0,1,73.4,38.7Z"
+            />
             <path
               d="M93.4,38.7a.7.7,0,0,1-.6-.3h-.1l-10-13.9V38a.8.8,0,0,1-1.5,0V22.3a.77.77,0,0,1,1.4-.6l10,13.9V22.2a.8.8,0,0,1,1.6,0V38A.8.8,0,0,1,93.4,38.7Z"
             />
@@ -103,7 +109,9 @@
             <path
               d="M247.8,38.7a8.9,8.9,0,1,1,0-17.7,9.2,9.2,0,0,1,5.7,2,.8.8,0,0,1,.3.5.7.7,0,0,1-.2.6.8.8,0,0,1-1.1.1,7.34,7.34,0,1,0-4.7,13,7.6,7.6,0,0,0,4.4-1.4V31h-4.5a.8.8,0,0,1-.8-.8h0a.8.8,0,0,1,.8-.8H253a.8.8,0,0,1,.7.8v6a.9.9,0,0,1-.3.6A9,9,0,0,1,247.8,38.7Z"
             />
-            <path d="M261.6,38.7a.8.8,0,0,1-.8-.8V22a.8.8,0,1,1,1.6,0h0V38A.8.8,0,0,1,261.6,38.7Z" />
+            <path
+              d="M261.6,38.7a.8.8,0,0,1-.8-.8V22a.8.8,0,1,1,1.6,0h0V38A.8.8,0,0,1,261.6,38.7Z"
+            />
             <path
               d="M274.5,38.7a.8.8,0,0,1-.8-.8V22.8h-5a.8.8,0,0,1,0-1.6h11.5a.8.8,0,0,1,0,1.6h-5V38A.8.8,0,0,1,274.5,38.7Z"
             />
@@ -133,10 +141,9 @@
       <div>
         <p>
           Mark coded front end templates &amp; CSS for integration in
-          <a
-            target="_blank"
-            href="https://sentinelbenefits.com"
-          >Sentinel Benefits&rsquo;</a>
+          <a target="_blank" href="https://sentinelbenefits.com"
+            >Sentinel Benefits&rsquo;</a
+          >
           Kentico&nbsp;website.
         </p>
         <p>
@@ -144,10 +151,7 @@
           Fidelity&nbsp;Investments, The University of Wisconsin at Madison,
           History at MIT, MIT Hyperstudio, The Digital Research Center at
           Hofstra&nbsp;University,
-          <a
-            target="_blank"
-            href="https://vascore.org"
-          >VasCore</a>, Farm
+          <a target="_blank" href="https://vascore.org">VasCore</a>, Farm
           Collective&nbsp;Wine, and&nbsp;40Act.com.
         </p>
       </div>
@@ -257,7 +261,6 @@ export default {
     }
   }
   .text {
-    /* background-color: var(--color-gray); */
     @include remify("padding-top", 40px);
     @include remify("padding-bottom", 40px);
   }
@@ -274,14 +277,13 @@ export default {
     }
   }
 }
-.work-jn,
-.work-sentinel {
+.work-morins,
+.work-idg {
   @media all and (min-width: $breakpoint-min) {
     flex-direction: row-reverse;
   }
 }
 .work-morins,
-.work-sentinel,
 .work-idg {
   @media all and (max-width: $breakpoint-max) {
     .image {
@@ -301,17 +303,16 @@ export default {
   .image {
     background-color: #27abeb;
     svg {
-      @include remify("height", 41.50318471px);
-      @include remify("width", 240px);
+      /* @include remify("height", 41.50318471px);
+      @include remify("width", 240px); */
+      @include remify("height", 48.42038216px);
+      @include remify("width", 280px);
     }
     .c-page-header__logo-bar--alt,
     .c-page-header__logo-text {
       fill: white;
     }
   }
-  /* .text {
-    background-color: var(--color-cream);
-  } */
 }
 .work-morins {
   .image {
@@ -344,14 +345,9 @@ export default {
 }
 
 .work-jn {
-  // @media all and (min-width: $breakpoint-min) {
   .image {
     background-image: url("/ui/img/monarch-bg.jpg");
-    /*.photo-jn {
-        display: none;
-      }*/
   }
-  // }
 }
 .other-clients {
   div:not(.panel-intro) {
