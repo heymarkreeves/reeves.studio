@@ -5,13 +5,7 @@
     </div>
     <div class="about-mark wrapper panel panel-alternating">
       <div>
-        <g-image
-          class="mark-seated"
-          src="~/assets/img/mark.png"
-          alt=""
-          width="680"
-          height="1133"
-        />
+        <g-image class="mark-seated" src="~/assets/img/mark.png" alt width="680" height="1133" />
       </div>
       <div>
         <p>
@@ -56,12 +50,45 @@
   </Layout>
 </template>
 
+<static-query>
+query {
+  metadata {
+    siteName
+  }
+}
+</static-query>
+
 <script>
 import ContactForm from "~/components/ContactForm";
 
 export default {
-  metaInfo: {
-    title: "Mark Reeves",
+  data() {
+    return {
+      title: "Mark Reeves",
+      canonical: "https://reeves.studio/about",
+    };
+  },
+  metaInfo() {
+    return {
+      title: this.title,
+      meta: [
+        { name: "og:url", content: this.canonical },
+        {
+          name: "og:title",
+          content: this.title + " - " + this.$static.metadata.siteName,
+        },
+        { name: "twitter:url", content: this.canonical },
+        {
+          name: "twitter:title",
+          content: this.title + " - " + this.$static.metadata.siteName,
+        },
+        { name: "dcterms.identifier", content: this.canonical },
+        {
+          name: "dcterms.title",
+          content: this.title + " - " + this.$static.metadata.siteName,
+        },
+      ],
+    };
   },
   components: {
     ContactForm,

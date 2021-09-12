@@ -92,11 +92,44 @@
   </Layout>
 </template>
 
+<static-query>
+query {
+  metadata {
+    siteName
+  }
+}
+</static-query>
+
 <script>
 import ContactForm from "~/components/ContactForm";
 export default {
-  metaInfo: {
-    title: "Reeves Studio",
+  data() {
+    return {
+      title: "Reeves Studio",
+      canonical: "https://reeves.studio/",
+    };
+  },
+  metaInfo() {
+    return {
+      title: this.title,
+      meta: [
+        { name: "og:url", content: this.canonical },
+        {
+          name: "og:title",
+          content: this.title + " - " + this.$static.metadata.siteName,
+        },
+        { name: "twitter:url", content: this.canonical },
+        {
+          name: "twitter:title",
+          content: this.title + " - " + this.$static.metadata.siteName,
+        },
+        { name: "dcterms.identifier", content: this.canonical },
+        {
+          name: "dcterms.title",
+          content: this.title + " - " + this.$static.metadata.siteName,
+        },
+      ],
+    };
   },
   components: {
     ContactForm,
