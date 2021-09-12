@@ -134,11 +134,11 @@
         </div>
       </div>
     </div>
-    <div class="other-clients wrapper panel panel-alternating bg-solid">
-      <div class="panel-intro">
-        <h2>Other Clients</h2>
-      </div>
+    <div
+      class="other-clients wrapper panel panel-alternating bg-solid content-centered"
+    >
       <div>
+        <h2>Other Clients</h2>
         <p>
           Mark coded front end templates &amp; CSS for integration in
           <a target="_blank" href="https://sentinelbenefits.com"
@@ -249,10 +249,10 @@ export default {
 <style lang="scss">
 @import "~/assets/css/mixins";
 @import "~/assets/css/vars";
-h2 {
-  margin-bottom: 0.5em;
-}
 .panel-work {
+  h2 {
+    margin-bottom: 0.5em;
+  }
   .image {
     align-items: center;
     display: flex;

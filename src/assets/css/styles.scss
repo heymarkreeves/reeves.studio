@@ -152,6 +152,17 @@ footer {
 .bg-solid {
   background-color: var(--color-gray);
 }
+.content-centered {
+  text-align: center;
+  h2 {
+    margin-bottom: 0.5em;
+  }
+  & > div {
+    margin-right: auto;
+    margin-left: auto;
+    @include remify("max-width", 800px);
+  }
+}
 .padding-extra-bottom {
   @include remify("padding-bottom", 46px);
   @media all and (min-width: $breakpoint-min) {
