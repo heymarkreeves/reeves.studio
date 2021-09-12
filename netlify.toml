@@ -17,3 +17,13 @@
   from = "https://www.heyreeves.com/*"
   to = "https://reeves.studio"
   force = true
+
+[[redirects]]
+  from = "http://frosty-bohr-7890eb.netlify.app//*"
+  to = "https://reeves.studio"
+  force = true
+
+[[redirects]]
+  from = "https://frosty-bohr-7890eb.netlify.app//*"
+  to = "https://reeves.studio"
+  force = true
