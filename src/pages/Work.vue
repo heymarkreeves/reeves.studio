@@ -42,10 +42,10 @@
           <h2>Journey North</h2>
           <p>
             Mark worked directly with Journey North Founder Elizabeth Howard to
-            establish a new Drupal website for editorial content &amp;
-            workflows. Following that effort, he engaged in a support role for
-            legacy site content, the legacy citizen science reporting platform,
-            and the new Drupal&nbsp;website.
+            build a new Drupal website for editorial content &amp; workflows.
+            Following that effort, he engaged in a support role for legacy site
+            content, the legacy citizen science reporting platform, and the new
+            Drupal&nbsp;website.
           </p>
           <p>
             He also designed and built a new maps experience using Leaflet.js
