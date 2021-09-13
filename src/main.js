@@ -8,6 +8,9 @@ export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
 
+  // this does no good because they're hashed
+  // <link rel="preload" href="/assets/Pacifico-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
   head.meta.push({
     name: "keywords",
     content:
