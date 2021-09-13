@@ -10,11 +10,11 @@ module.exports = {
     {
       use: "gridsome-plugin-manifest",
       options: {
-        background_color: "rgb(255, 253, 247)",
+        background_color: "#FFFDF7",
         icon_path: "./src/favicon.png",
         name: "Reeves Studio",
         short_name: "Reeves",
-        theme_color: "rgb(40, 122, 184)",
+        theme_color: "#287AB8",
         lang: "en",
       },
     },
