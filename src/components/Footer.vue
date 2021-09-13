@@ -8,6 +8,7 @@
             class="link-social-icon"
             target="_blank"
             href="https://www.linkedin.com/in/heymarkreeves"
+            rel="noreferrer"
             ><svg
               clip-rule="evenodd"
               fill-rule="evenodd"
@@ -34,12 +35,14 @@
             target="_blank"
             href="https://www.accessibilityassociation.org/"
             title="International Association of Accessibility Professionals"
+            rel="noreferrer"
             >IAAP</a
           >.
           <a
             class="link-craft"
             target="_blank"
             href="https://craftcms.com/partners/clearbold"
+            rel="noreferrer"
             >Craft&nbsp;CMS&nbsp;Partner</a
           >.<br />
           <a href="mailto:studio@heyreeves.com">studio@heyreeves.com</a>
@@ -49,6 +52,7 @@
             class="link-wintergreen"
             target="_blank"
             href="https://wintergreendigital.com"
+            rel="noreferrer"
             >wintergreendigital.com</a
           >.
         </p>
