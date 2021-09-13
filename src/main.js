@@ -14,7 +14,7 @@ export default function(Vue, { router, head, isClient }) {
   head.meta.push({
     name: "keywords",
     content:
-      "web design, web development, UX design, ecommerce, Craft CMS, Vue.js, WordPress, marketing automation, content management",
+      "web design, web development, UX design, ecommerce, Craft CMS, Vue.js, Vermont, VT, WordPress, marketing automation, content management",
   });
   head.meta.push({
     name: "description",
