@@ -53,7 +53,9 @@
             established sustainable budgets for infrastructure &amp; support;
             migrated all digital properties to new hosting environments twice;
             updated website security protocols to support a community of 100,000
-            users; and updated PHP code to modern best&nbsp;practices.
+            users; updated PHP code to modern best practices; and prototyped a
+            new mobile-friendly web app for citizen science reporting, using
+            Vue.js.
           </p>
         </div>
       </div>
