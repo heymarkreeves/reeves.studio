@@ -1,12 +1,6 @@
 <template>
   <div
-    class="
-      contact-form
-      wrapper
-      panel panel-alternating
-      bg-solid
-      padding-extra-bottom
-    "
+    class="contact-form wrapper panel panel-alternating bg-solid padding-extra-bottom"
   >
     <div class="panel-intro">
       <slot />
@@ -33,7 +27,7 @@
             <option>Looking for a Quote</option>
             <option>Immediate Need</option>
           </select>
-          <p class="form-explainer" v-if="!hideBudgetTerms">
+          <p class="form-explainer" v-if="!hideBudgetTerms && false">
             Most new client projects start at&nbsp;$5,000.
           </p>
         </div>
