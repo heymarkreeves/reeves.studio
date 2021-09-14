@@ -11,6 +11,12 @@ export default function(Vue, { router, head, isClient }) {
   // this does no good because they're hashed
   // <link rel="preload" href="/assets/Pacifico-Bold.woff2" as="font" type="font/woff2" crossorigin>
 
+  head.script.push({
+    src: "https://plausible.io/js/plausible.js",
+    defer: true,
+    "data-domain": "reeves.studio",
+  });
+
   head.meta.push({
     name: "keywords",
     content:
