@@ -133,7 +133,11 @@ footer {
   text-align: center;
   @include remify("margin-bottom", 40px);
   h2 {
+    @include remify("margin-top", -4px);
     margin-bottom: 0.5em;
+    @media all and (min-width: $breakpoint-reader-min) {
+      @include remify("margin-top", -8px);
+    }
   }
 }
 .panel-alternating {
@@ -159,7 +163,11 @@ footer {
 .content-centered {
   text-align: center;
   h2 {
+    @include remify("margin-top", -4px);
     margin-bottom: 0.5em;
+    @media all and (min-width: $breakpoint-reader-min) {
+      @include remify("margin-top", -8px);
+    }
   }
   & > div {
     margin-right: auto;

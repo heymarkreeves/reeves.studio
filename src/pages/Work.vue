@@ -137,7 +137,7 @@
       </div>
     </div>
     <div
-      class="other-clients wrapper panel panel-alternating bg-solid content-centered"
+      class="other-clients wrapper panel panel-alternating bg-solid padding-extra-bottom content-centered"
     >
       <div>
         <h2>Other Clients</h2>
