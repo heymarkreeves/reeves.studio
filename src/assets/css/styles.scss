@@ -216,7 +216,7 @@ button {
   @include remify("margin-top", 40px);
   margin-right: auto;
   margin-left: auto;
-  padding-top: 1em;
+  padding-top: calc(1em + 1px);
   padding-right: 3ch;
   padding-bottom: 1em;
   padding-left: 3ch;
