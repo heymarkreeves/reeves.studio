@@ -324,7 +324,6 @@ export default {
       /* ul, */
       li {
         display: inline;
-        margin-top: 0;
       }
       h3::after {
         content: ":";

@@ -44,7 +44,7 @@ export default function(Vue, { router, head, isClient }) {
   });
   head.meta.push({
     name: "og:image",
-    content: "https://reeves.studio/ui/img/[FILL IN]",
+    content: "https://reeves.studio/ui/img/card.png",
   });
 
   head.meta.push({
@@ -73,7 +73,7 @@ export default function(Vue, { router, head, isClient }) {
   });
   head.meta.push({
     name: "twitter:image",
-    content: "https://reeves.studio/ui/img/[FILL IN]",
+    content: "https://reeves.studio/ui/img/card.png",
   });
 
   // Define per page
