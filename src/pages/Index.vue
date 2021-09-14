@@ -215,11 +215,9 @@ export default {
       /* Need to DRY this */
       @include remify("font-size", 18px);
       margin-top: 0.5em;
+      @include remify("font-size", 22px);
       @media all and (min-width: $breakpoint-reader-min) {
-        @include remify("font-size", 20px);
-      }
-      @media all and (min-width: $breakpoint-min) {
-        @include remify("font-size", 24px);
+        @include remify("font-size", 28px);
       }
       /* /Need to DRY this */
     }
@@ -234,11 +232,9 @@ export default {
       &:not(:first-of-type) {
         margin-top: 0.5em;
       }
+      @include remify("font-size", 22px);
       @media all and (min-width: $breakpoint-reader-min) {
-        @include remify("font-size", 20px);
-      }
-      @media all and (min-width: $breakpoint-min) {
-        @include remify("font-size", 24px);
+        @include remify("font-size", 28px);
       }
       svg {
         /* 119 157 */

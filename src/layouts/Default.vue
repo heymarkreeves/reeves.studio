@@ -133,6 +133,9 @@ query {
     ul {
       list-style: none;
     }
+    li {
+      @include remify("font-size", 20px);
+    }
     a {
       text-decoration: none;
       &.active--exact {

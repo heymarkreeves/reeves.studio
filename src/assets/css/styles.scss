@@ -70,12 +70,12 @@ sup {
 }
 h1,
 h2 {
-  @include remify("font-size", 20px);
+  @include remify("font-size", 22px);
   @media all and (min-width: $breakpoint-reader-min) {
-    @include remify("font-size", 26px);
+    @include remify("font-size", 28px);
   }
   @media all and (min-width: $breakpoint-min) {
-    @include remify("font-size", 30px);
+    @include remify("font-size", 32px);
   }
 }
 p,
