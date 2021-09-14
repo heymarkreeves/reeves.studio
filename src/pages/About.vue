@@ -1,15 +1,21 @@
 <template>
   <Layout>
     <div class="wrapper panel panel-alternating bg-solid">
-      <h1>About Mark</h1>
+      <h1>About Mark Reeves</h1>
     </div>
     <div class="about-mark wrapper panel panel-alternating">
       <div>
-        <g-image class="mark-seated" src="~/assets/img/mark.png" alt width="680" height="1133" />
+        <g-image
+          class="mark-seated"
+          src="~/assets/img/mark.png"
+          alt
+          width="680"
+          height="1133"
+        />
       </div>
       <div>
         <p>
-          If you were to describe Mark in one word it would be
+          If you were to describe Mark Reeves in one word it would be
           <strong>multidisciplinary</strong>. In college Mark studied Business,
           Communications, and Computer Science. Today he collaborates with
           designers, marketing professionals, scholars, scientists, and business
