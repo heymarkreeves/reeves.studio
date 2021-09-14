@@ -161,8 +161,10 @@ query {
   }
   .brand-link {
     display: block;
-    &:hover {
-      transform: scale(1.1);
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
   @media all and (max-width: $breakpoint-hand-max) {
