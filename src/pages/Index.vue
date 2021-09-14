@@ -207,8 +207,10 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    & > div {
-      @include remify("max-width", 400px);
+    @media all and (min-width: $breakpoint-desk-min) {
+      & > div {
+        @include remify("max-width", 400px);
+      }
     }
     .cta {
       @include font("medium");
@@ -240,7 +242,7 @@ export default {
         /* 119 157 */
         @include remify("height", 20px);
         position: relative;
-        top: -1px;
+        top: -2px;
         @include remify("width", 26.38655462px);
       }
     }

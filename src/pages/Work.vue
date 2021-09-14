@@ -15,7 +15,7 @@
       </div>
       <div class="text">
         <div class="wrapper">
-          <h2>Russell Morin Catering &amp; Events</h2>
+          <h2>Russell Morin Catering &amp;&nbsp;Events</h2>
           <p>
             Mark has worked with
             <a target="_blank" href="https://morins.com">Morin&rsquo;s</a> for
