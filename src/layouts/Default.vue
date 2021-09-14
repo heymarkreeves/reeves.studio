@@ -129,6 +129,7 @@ query {
     @include remify("height", 80px);
   }
   nav {
+    @include font("medium");
     ul {
       list-style: none;
     }
@@ -136,6 +137,8 @@ query {
       text-decoration: none;
       &.active--exact {
         text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 2px;
       }
     }
   }

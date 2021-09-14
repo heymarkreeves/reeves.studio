@@ -42,7 +42,7 @@
       </blockquote>
       <p>
         &ndash; Lizzy Desibia, VP, Sales &amp; Marketing, Russell Morin
-        Catering&nbsp;Events
+        Catering&nbsp;&amp;&nbsp;Events
       </p>
     </div>
     <ContactForm>

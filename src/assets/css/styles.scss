@@ -26,15 +26,19 @@ body {
 }
 
 strong,
-b,
+b {
+  font-family: publicsans-semibold, -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: publicsans-semibold, -apple-system, system-ui, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: bryant-medium, publicsans-semibold, -apple-system, system-ui,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
 }
 em,
@@ -66,12 +70,12 @@ sup {
 }
 h1,
 h2 {
-  @include remify("font-size", 18px);
+  @include remify("font-size", 20px);
   @media all and (min-width: $breakpoint-reader-min) {
-    @include remify("font-size", 24px);
+    @include remify("font-size", 26px);
   }
   @media all and (min-width: $breakpoint-min) {
-    @include remify("font-size", 28px);
+    @include remify("font-size", 30px);
   }
 }
 p,
@@ -177,6 +181,9 @@ footer {
     @include remify("padding-top", 74px);
   }
   text-align: center;
+  & > p {
+    @include font("medium");
+  }
   blockquote {
     @include remify("max-width", 768px);
     margin-right: auto;
@@ -204,8 +211,8 @@ button {
   color: white;
   cursor: pointer;
   display: block;
-  @include font("semibold");
-  font-size: inherit;
+  @include font("medium");
+  @include remify("font-size", 18px);
   @include remify("margin-top", 40px);
   margin-right: auto;
   margin-left: auto;

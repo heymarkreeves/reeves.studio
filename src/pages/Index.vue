@@ -211,6 +211,7 @@ export default {
       @include remify("max-width", 400px);
     }
     .cta {
+      @include font("medium");
       /* Need to DRY this */
       @include remify("font-size", 18px);
       margin-top: 0.5em;
@@ -228,7 +229,7 @@ export default {
     p {
       align-items: center;
       display: flex;
-      @include font("semibold");
+      @include font("medium");
       @include remify("font-size", 18px);
       margin-top: 0.5em;
       @media all and (min-width: $breakpoint-reader-min) {
