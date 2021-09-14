@@ -68,8 +68,9 @@
           </div>
           <div>
             <p>
-              Mark Reeves provides web development &amp; UX design for small
-              businesses &amp; product, sales, marketing, and editorial teams.
+              Mark Reeves provides web development &amp; UX design services for
+              small businesses &amp; product, sales, marketing, and
+              editorial&nbsp;teams.
             </p>
             <g-link class="cta" to="/work/">Check out the work &raquo;</g-link>
           </div>
