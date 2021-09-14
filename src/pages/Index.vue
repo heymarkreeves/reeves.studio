@@ -243,6 +243,9 @@ export default {
         @include remify("height", 20px);
         position: relative;
         top: -2px;
+        @-moz-document url-prefix() {
+          top: -1px;
+        }
         @include remify("width", 26.38655462px);
       }
     }
