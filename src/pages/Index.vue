@@ -231,7 +231,9 @@ export default {
       display: flex;
       @include font("medium");
       @include remify("font-size", 18px);
-      margin-top: 0.5em;
+      &:not(:first-of-type) {
+        margin-top: 0.5em;
+      }
       @media all and (min-width: $breakpoint-reader-min) {
         @include remify("font-size", 20px);
       }
