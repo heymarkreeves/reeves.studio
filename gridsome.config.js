@@ -8,6 +8,13 @@ module.exports = {
   siteName: "Web Development & UX Design. Based in Vermont.",
   plugins: [
     {
+      use: "gridsome-plugin-plausible-analytics",
+      options: {
+        dataDomain: "reeves.studio",
+        outboundLinkTracking: false,
+      },
+    },
+    {
       use: "gridsome-plugin-manifest",
       options: {
         background_color: "#FFFDF7",

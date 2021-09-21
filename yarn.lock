@@ -4865,6 +4865,11 @@ gridsome-plugin-manifest@^0.3.5:
     rename "1.*"
     sharp "^0.25.0"
 
+gridsome-plugin-plausible-analytics@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-plausible-analytics/-/gridsome-plugin-plausible-analytics-1.0.0.tgz#251d21334d6ac12df8967724fc55a079ffec9395"
+  integrity sha512-KMEQzxy3jefHH8ZDPbKttsrrEt4uSebn+saHtRkZx9pXR7DJmge0uE6+ImzsBXdpNuOvMTa6XGZVrwm00VC/QQ==
+
 gridsome@^0.7.0:
   version "0.7.23"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.23.tgz#d8b06bdf6b4ed06411be3ec3696324f29c83063e"

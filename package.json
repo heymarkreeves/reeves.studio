@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "@gridsome/plugin-critical": "^0.2.0",
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-plausible-analytics": "^1.0.0"
   },
   "devDependencies": {
     "gridsome-plugin-manifest": "^0.3.5",
