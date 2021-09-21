@@ -115,6 +115,7 @@
             <li>Craft&nbsp;CMS</li>
             <li>Vue.js</li>
             <li>React</li>
+            <li>Jamstack</li>
             <li>Stripe</li>
             <li>Postmark</li>
             <li>Salesforce</li>

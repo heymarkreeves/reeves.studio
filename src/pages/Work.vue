@@ -28,7 +28,7 @@
           </p>
           <p>
             Morin&rsquo;s is a distinctive brand delivering distinctive cuisine
-            and memorable events to their clientele. Mark&rsquo;s partnership
+            and memorable events for their clientele. Mark&rsquo;s partnership
             with Morin&rsquo;s is built on ensuring that their website and
             marketing efforts reflect their high standards, and&nbsp;his.
           </p>
