@@ -47,6 +47,7 @@
           >.<br />
           <a href="mailto:studio@heyreeves.com">studio@heyreeves.com</a>
         </p>
+        <p>Independent since 2007.</p>
         <p>
           Caterers, event planners, and culinary&nbsp;brands, visit&nbsp;<a
             class="link-wintergreen"
