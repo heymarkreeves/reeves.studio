@@ -56,7 +56,7 @@
           <li>Jay Peak&nbsp;Resort</li>
           <li>SAP</li>
           <li>Massachusetts General&nbsp;Hospital</li>
-          <li>and Healthcare &amp; Biosciences&nbsp;clients</li>
+          <li>and Healthcare&nbsp;&amp; Biosciences&nbsp;clients</li>
         </ul>
       </div>
     </div>
