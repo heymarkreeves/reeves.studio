@@ -66,7 +66,6 @@
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 314 54.3"
           class="c-page-header__logo"
-          alt=""
         >
           <title>logo</title>
           <path
