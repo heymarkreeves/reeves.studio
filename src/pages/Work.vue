@@ -443,9 +443,6 @@ export default {
     }
     .image {
       @include remify("padding-top", 20px);
-      /* @include remify("padding-right", 10px); */
-      /* @include remify("padding-left", 20px); */
-      padding-left: 0;
     }
     &.work-craft {
       @include remify("padding-bottom", 20px);
