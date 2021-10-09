@@ -431,16 +431,21 @@ export default {
     }
     &:nth-of-type(2n-1) {
       .text {
-        @include remify("padding-left", 10px);
+        /* @include remify("padding-left", 10px); */
+        padding-left: 0;
         & > div {
           background-color: var(--color-gray);
         }
       }
+      .image {
+        @include remify("padding-left", 20px);
+      }
     }
     .image {
       @include remify("padding-top", 20px);
-      @include remify("padding-right", 10px);
-      @include remify("padding-left", 20px);
+      /* @include remify("padding-right", 10px); */
+      /* @include remify("padding-left", 20px); */
+      padding-left: 0;
     }
     &.work-craft {
       @include remify("padding-bottom", 20px);
@@ -454,7 +459,7 @@ export default {
     flex-direction: row-reverse;
     .image {
       @include remify("padding-right", 20px);
-      @include remify("padding-left", 10px);
+      /* @include remify("padding-left", 10px); */
     }
   }
 }
