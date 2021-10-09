@@ -227,7 +227,8 @@
           <h2>Invested Digital Group</h2>
           <p>
             Mark has fully developed, launched, and supported multiple
-            Craft&nbsp;CMS websites for IDG&rsquo;s Biosciences&nbsp;clients.
+            Craft&nbsp;CMS websites for IDG&rsquo;s Biosciences &amp; regulated
+            industries&nbsp;clients.
           </p>
         </div>
       </div>
