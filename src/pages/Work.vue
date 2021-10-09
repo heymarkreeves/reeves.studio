@@ -427,7 +427,7 @@ export default {
       display: flex;
       @include remify("padding-top", 20px);
       @include remify("padding-right", 20px);
-      @include remify("padding-left", 20px);
+      /* @include remify("padding-left", 20px); */
     }
     &:nth-of-type(2n-1) {
       .text {
