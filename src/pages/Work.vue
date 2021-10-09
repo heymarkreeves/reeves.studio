@@ -20,7 +20,8 @@
             Mark has worked with
             <a target="_blank" href="https://morins.com">Morin&rsquo;s</a> for
             over a decade, including two site redesigns&mdash;first on
-            ExpressionEngine and then Craft CMS&mdash;and the recent launch of
+            ExpressionEngine and then Craft&nbsp;CMS&mdash;and the recent launch
+            of
             <a target="_blank" href="https://orderfresheats.com">Fresh Eats</a>,
             a Craft Commerce site focused on corporate &amp; casual catering.
             Along the way he&rsquo;s also supported CRM explorations, marketing
@@ -142,7 +143,7 @@
             <a target="_blank" href="https://massfairhousing.org"
               >Massachusetts Fair Housing</a
             >
-            a Craft CMS site that empowers the legal services non-profit in
+            a Craft&nbsp;CMS site that empowers the legal services non-profit in
             communicating their offerings and updates more effectively to
             clientele and the media.
           </p>
@@ -219,8 +220,8 @@
         <div class="wrapper">
           <h2>Invested Digital Group</h2>
           <p>
-            Mark has fully developed, launched, and supported multiple Craft CMS
-            websites for IDG&rsquo;s Biosciences&nbsp;clients.
+            Mark has fully developed, launched, and supported multiple
+            Craft&nbsp;CMS websites for IDG&rsquo;s Biosciences&nbsp;clients.
           </p>
         </div>
       </div>
