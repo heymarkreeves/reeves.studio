@@ -254,9 +254,9 @@
         <div class="wrapper">
           <h2>Craft CMS Development</h2>
           <p>
-            Mark has worked with the Craft&nbsp;CMS platform since its initial
-            release, developed Craft&nbsp;CMS plugins for general use, and
-            customized Craft&nbsp;CMS installations.
+            Mark has worked with the Craft&nbsp;CMS platform since 2013,
+            developed Craft&nbsp;CMS plugins for general use, and customized
+            Craft&nbsp;CMS installations.
           </p>
           <p>
             He is a
