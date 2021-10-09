@@ -547,7 +547,8 @@ export default {
 }
 .work-craft {
   .image > div {
-    background-color: #f1f5fd;
+    /* background-color: #f1f5fd; */
+    background-color: var(--color-gray);
   }
 }
 .other-clients {
