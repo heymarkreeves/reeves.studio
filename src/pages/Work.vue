@@ -149,7 +149,7 @@
             >
             a Craft&nbsp;CMS site that empowers the legal services non-profit to
             better communicate their offerings and updates more effectively to
-            their clientele and the media.
+            their clientele and the&nbsp;media.
           </p>
         </div>
       </div>
