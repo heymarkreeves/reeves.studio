@@ -147,9 +147,9 @@
             <a target="_blank" href="https://massfairhousing.org"
               >Massachusetts Fair Housing</a
             >
-            a Craft&nbsp;CMS site that empowers the legal services non-profit in
-            communicating their offerings and updates more effectively to
-            clientele and the media.
+            a Craft&nbsp;CMS site that empowers the legal services non-profit to
+            better communicate their offerings and updates more effectively to
+            their clientele and the media.
           </p>
         </div>
       </div>
