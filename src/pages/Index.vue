@@ -90,7 +90,7 @@
             <li>Lead capture &amp; marketing automation</li>
             <li>
               <abbr title="Search Engine Optimization">SEO</abbr> &amp;
-              Accessibility (A11y)
+              Accessibility
             </li>
             <li>
               <abbr title="Application Programming Interface">API</abbr>
