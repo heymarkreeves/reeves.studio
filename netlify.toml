@@ -27,3 +27,23 @@
   from = "https://frosty-bohr-7890eb.netlify.app//*"
   to = "https://reeves.studio"
   force = true
+
+[[redirects]]
+  from = "http://heyreeves.com/calendar"
+  to = "https://savvycal.com/heymarkreeves/meet"
+  force = true
+
+[[redirects]]
+  from = "http://www.heyreeves.com/calendar"
+  to = "https://savvycal.com/heymarkreeves/meet"
+  force = true
+
+[[redirects]]
+  from = "https://heyreeves.com/calendar"
+  to = "https://savvycal.com/heymarkreeves/meet"
+  force = true
+
+[[redirects]]
+  from = "https://www.heyreeves.com/calendar"
+  to = "https://savvycal.com/heymarkreeves/meet"
+  force = true
