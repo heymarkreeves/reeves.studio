@@ -19,6 +19,26 @@
   force = true
 
 [[redirects]]
+  from = "http://reeves.studio/basecamp"
+  to = "https://3.basecamp.com/5243460"
+  force = true
+
+[[redirects]]
+  from = "https://reeves.studio/basecamp"
+  to = "https://3.basecamp.com/5243460"
+  force = true
+
+[[redirects]]
+  from = "http://heyreeves.com/basecamp"
+  to = "https://3.basecamp.com/5243460"
+  force = true
+
+[[redirects]]
+  from = "https://heyreeves.com/basecamp"
+  to = "https://3.basecamp.com/5243460"
+  force = true
+
+[[redirects]]
   from = "http://heyreeves.com/*"
   to = "https://reeves.studio"
   force = true
@@ -46,24 +66,4 @@
 [[redirects]]
   from = "https://frosty-bohr-7890eb.netlify.app/*"
   to = "https://reeves.studio"
-  force = true
-
-[[redirects]]
-  from = "http://reeves.studio/basecamp"
-  to = "https://3.basecamp.com/5243460"
-  force = true
-
-[[redirects]]
-  from = "https://reeves.studio/basecamp"
-  to = "https://3.basecamp.com/5243460"
-  force = true
-
-[[redirects]]
-  from = "http://heyreeves.com/basecamp"
-  to = "https://3.basecamp.com/5243460"
-  force = true
-
-[[redirects]]
-  from = "https://heyreeves.com/basecamp"
-  to = "https://3.basecamp.com/5243460"
   force = true
