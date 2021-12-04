@@ -4,7 +4,7 @@
 import "~/assets/css/styles.scss";
 import DefaultLayout from "~/layouts/Default.vue";
 
-export default function (Vue, { router, head, isClient }) {
+export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
 
@@ -17,15 +17,20 @@ export default function (Vue, { router, head, isClient }) {
   //   "data-domain": "reeves.studio",
   // });
 
+  head.script.push({
+    "src": "https://reeves.studio/js/data.js",
+    "async": true,
+    "defer": true,
+    "data-domain": "reeves.studio"
+  });
+
   head.meta.push({
     name: "keywords",
-    content:
-      "web design, web development, UX design, ecommerce, Craft CMS, Vue.js, Vermont, VT, WordPress, marketing automation, content management",
+    content: "web design, web development, UX design, ecommerce, Craft CMS, Vue.js, Vermont, VT, WordPress, marketing automation, content management",
   });
   head.meta.push({
     name: "description",
-    content:
-      "Mark Reeves provides web development and UX design services for small businesses & product, sales, marketing, and editorial teams.",
+    content: "Mark Reeves provides web development and UX design services for small businesses & product, sales, marketing, and editorial teams.",
   });
 
   head.meta.push({
@@ -45,8 +50,7 @@ export default function (Vue, { router, head, isClient }) {
   // <meta property="og:title" content="" />
   head.meta.push({
     name: "og:description",
-    content:
-      "Mark Reeves provides web development and UX design services for small businesses & product, sales, marketing, and editorial teams.",
+    content: "Mark Reeves provides web development and UX design services for small businesses & product, sales, marketing, and editorial teams.",
   });
   head.meta.push({
     name: "og:image",
@@ -74,8 +78,7 @@ export default function (Vue, { router, head, isClient }) {
   // <meta property="twitter:title" content="" />
   head.meta.push({
     name: "twitter:description",
-    content:
-      "Mark Reeves provides web development and UX design services for small businesses & product, sales, marketing, and editorial teams.",
+    content: "Mark Reeves provides web development and UX design services for small businesses & product, sales, marketing, and editorial teams.",
   });
   head.meta.push({
     name: "twitter:image",
@@ -89,8 +92,7 @@ export default function (Vue, { router, head, isClient }) {
   // });
   head.meta.push({
     name: "dcterms.description",
-    content:
-      "Mark Reeves provides web development and UX design services for small businesses & product, sales, marketing, and editorial teams.",
+    content: "Mark Reeves provides web development and UX design services for small businesses & product, sales, marketing, and editorial teams.",
   });
   head.meta.push({
     name: "dcterms.type",

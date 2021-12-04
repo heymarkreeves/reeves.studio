@@ -4,17 +4,18 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+// {
+//   use: "gridsome-plugin-plausible-analytics",
+//   options: {
+//     customDomain: "reeves.studio",
+//     dataDomain: "reeves.studio",
+//     outboundLinkTracking: false,
+//   },
+// },
+
 module.exports = {
   siteName: "Web Development & UX Design. Based in Vermont.",
-  plugins: [
-    {
-      use: "gridsome-plugin-plausible-analytics",
-      options: {
-        dataDomain: "reeves.studio",
-        outboundLinkTracking: false,
-      },
-    },
-    {
+  plugins: [{
       use: "gridsome-plugin-manifest",
       options: {
         background_color: "#FFFDF7",
