@@ -2,7 +2,6 @@
   <Layout>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <!-- <g-image alt="Example image" src="~/assets/img/favicon.png" width="135" /> -->
-
     <div class="hero-home panel panel-alternating bg-solid">
       <div class="hero-home-image wrapper">
         <g-image src="~/assets/img/tech.png" alt width="1000" />
@@ -12,56 +11,20 @@
           <h1 class="accessibility">Reeves Studio</h1>
           <div class="hero-home-checklist">
             <p>
-              <svg
-                clip-rule="evenodd"
-                fill-rule="evenodd"
-                stroke-linejoin="round"
-                stroke-miterlimit="2"
-                viewBox="0 0 119 157"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="m667.3 637.5c-3.8 0-7.5-1.6-10-4.5l-42-46.8c-5-5.5-4.5-14.1 1-19.1s14.1-4.5 19.1 1l27.2 30.3 41.1-108.8c2.6-7 10.4-10.5 17.4-7.9s10.5 10.4 7.9 17.4l-49 129.7c-1.7 4.4-5.5 7.6-10.1 8.5-.9.1-1.8.2-2.6.2z"
-                  fill="#287ab8"
-                  fill-rule="nonzero"
-                  transform="translate(-611.842 -480.842)"
-                />
+              <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 119 157" xmlns="http://www.w3.org/2000/svg">
+                <path d="m667.3 637.5c-3.8 0-7.5-1.6-10-4.5l-42-46.8c-5-5.5-4.5-14.1 1-19.1s14.1-4.5 19.1 1l27.2 30.3 41.1-108.8c2.6-7 10.4-10.5 17.4-7.9s10.5 10.4 7.9 17.4l-49 129.7c-1.7 4.4-5.5 7.6-10.1 8.5-.9.1-1.8.2-2.6.2z" fill="#287ab8" fill-rule="nonzero" transform="translate(-611.842 -480.842)" />
               </svg>
               Accomplish more.
             </p>
             <p>
-              <svg
-                clip-rule="evenodd"
-                fill-rule="evenodd"
-                stroke-linejoin="round"
-                stroke-miterlimit="2"
-                viewBox="0 0 119 157"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="m667.3 637.5c-3.8 0-7.5-1.6-10-4.5l-42-46.8c-5-5.5-4.5-14.1 1-19.1s14.1-4.5 19.1 1l27.2 30.3 41.1-108.8c2.6-7 10.4-10.5 17.4-7.9s10.5 10.4 7.9 17.4l-49 129.7c-1.7 4.4-5.5 7.6-10.1 8.5-.9.1-1.8.2-2.6.2z"
-                  fill="#287ab8"
-                  fill-rule="nonzero"
-                  transform="translate(-611.842 -480.842)"
-                />
+              <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 119 157" xmlns="http://www.w3.org/2000/svg">
+                <path d="m667.3 637.5c-3.8 0-7.5-1.6-10-4.5l-42-46.8c-5-5.5-4.5-14.1 1-19.1s14.1-4.5 19.1 1l27.2 30.3 41.1-108.8c2.6-7 10.4-10.5 17.4-7.9s10.5 10.4 7.9 17.4l-49 129.7c-1.7 4.4-5.5 7.6-10.1 8.5-.9.1-1.8.2-2.6.2z" fill="#287ab8" fill-rule="nonzero" transform="translate(-611.842 -480.842)" />
               </svg>
               Worry less.
             </p>
             <p>
-              <svg
-                clip-rule="evenodd"
-                fill-rule="evenodd"
-                stroke-linejoin="round"
-                stroke-miterlimit="2"
-                viewBox="0 0 119 157"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="m667.3 637.5c-3.8 0-7.5-1.6-10-4.5l-42-46.8c-5-5.5-4.5-14.1 1-19.1s14.1-4.5 19.1 1l27.2 30.3 41.1-108.8c2.6-7 10.4-10.5 17.4-7.9s10.5 10.4 7.9 17.4l-49 129.7c-1.7 4.4-5.5 7.6-10.1 8.5-.9.1-1.8.2-2.6.2z"
-                  fill="#287ab8"
-                  fill-rule="nonzero"
-                  transform="translate(-611.842 -480.842)"
-                />
+              <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 119 157" xmlns="http://www.w3.org/2000/svg">
+                <path d="m667.3 637.5c-3.8 0-7.5-1.6-10-4.5l-42-46.8c-5-5.5-4.5-14.1 1-19.1s14.1-4.5 19.1 1l27.2 30.3 41.1-108.8c2.6-7 10.4-10.5 17.4-7.9s10.5 10.4 7.9 17.4l-49 129.7c-1.7 4.4-5.5 7.6-10.1 8.5-.9.1-1.8.2-2.6.2z" fill="#287ab8" fill-rule="nonzero" transform="translate(-611.842 -480.842)" />
               </svg>
               Build value.
             </p>
@@ -118,6 +81,7 @@
             <li>Jamstack</li>
             <li>Stripe</li>
             <li>Postmark</li>
+            <li>Marketo</li>
             <li>Salesforce</li>
             <li>Laravel</li>
             <li>WordPress</li>
@@ -146,15 +110,13 @@
     </ContactForm>
   </Layout>
 </template>
-
 <static-query>
-query {
+  query {
   metadata {
-    siteName
+  siteName
   }
-}
+  }
 </static-query>
-
 <script>
 import ContactForm from "~/components/ContactForm";
 export default {
@@ -191,7 +153,6 @@ export default {
   },
 };
 </script>
-
 <style lang="scss">
 @import "~/assets/css/mixins";
 @import "~/assets/css/vars";
