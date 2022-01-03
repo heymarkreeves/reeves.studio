@@ -112,9 +112,9 @@
 </template>
 <static-query>
   query {
-  metadata {
-  siteName
-  }
+    metadata {
+      siteName
+    }
   }
 </static-query>
 <script>
