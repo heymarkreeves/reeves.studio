@@ -32,7 +32,7 @@
           <div>
             <p>
               Mark Reeves provides web development &amp; UX design services for
-              design studios, non-profits, small businesses &amp; product, sales, marketing, and
+              branding &amp; design studios, non-profits, small businesses &amp; product, sales, marketing, and
               editorial&nbsp;teams.
             </p>
             <g-link class="cta" to="/work/">Check out the work &raquo;</g-link>
